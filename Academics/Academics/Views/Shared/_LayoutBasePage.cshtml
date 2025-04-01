@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>@ViewData["Title"] || Academics</title>
+    <meta name="description" content="@ViewData["Description"]">
+    <meta name="keywords" content="@ViewData["Keywords"]">
+
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="~/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/jquery-ui.css">
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="~/css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="~/css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="~/fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="~/css/aos.css">
+    <link href="~/css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="~/css/style.css">
+
+    @RenderSection("Styles", false)
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <div id="loader" class="show fullscreen">
+        <svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#51be78" />
+        </svg>
+    </div>
+    <div class="site-wrap">
+        <!-- Header Area Start -->
+        @Html.Partial("MobileMenu")
+        @Html.Partial("TopBar")
+        @Html.Partial("Header")
+
+        <!-- Header Area End -->
+
+        @RenderBody()
+
+        <!-- Footer Area Start -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <p class="mb-4"><img src="~/images/logo.png" alt="Image" class="img-fluid"></p>
+                        <p>@localizer["info"]</p>
+                        <p><a href="#">@localizer["learn"]</a></p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3 class="footer-heading"><span>@localizer["campus"]</span></h3>
+                        <ul class="list-unstyled">
+                            <li><a href="#">@localizer["academic"]</a></li>
+                            <li>@Html.ActionLink(localizer["news"].Value, "News", "Home")</li>
+                            <li><a href="#">@localizer["interns"]</a></li>
+                            <li><a href="#">@localizer["leadership"]</a></li>
+                            <li><a href="#">@localizer["careers"]</a></li>
+                            <li><a href="#">@localizer["human_resources"]</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3 class="footer-heading"><span>@localizer["courses"]</span></h3>
+                        <ul class="list-unstyled">
+                            <li><a href="#">@localizer["math"]</a></li>
+                            <li><a href="#">@localizer["science_engineering"]</a></li>
+                            <li><a href="#">@localizer["arts_humanities"]</a></li>
+                            <li><a href="#">@localizer["economics_finance"]</a></li>
+                            <li><a href="#">@localizer["business"]</a></li>
+                            <li><a href="#">@localizer["computer_science"]</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3 class="footer-heading"><span>@localizer["contact"]</span></h3>
+                        <ul class="list-unstyled">
+                            <li><a href="#">@localizer["help_center"]</a></li>
+                            <li><a href="#">@localizer["support_community"]</a></li>
+                            <li><a href="#">@localizer["press"]</a></li>
+                            <li><a href="#">@localizer["share"]</a></li>
+                            <li><a href="#">@localizer["supporters"]</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="copyright">
+                            <p>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Area End -->
+    </div>
+
+    <!-- Scripts Start -->
+    <script src="~/js/jquery-3.3.1.min.js"></script>
+    <script src="~/js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="~/js/jquery-ui.js"></script>
+    <script src="~/js/popper.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/jquery.stellar.min.js"></script>
+    <script src="~/js/jquery.countdown.min.js"></script>
+    <script src="~/js/bootstrap-datepicker.min.js"></script>
+    <script src="~/js/jquery.easing.1.3.js"></script>
+    <script src="~/js/aos.js"></script>
+    <script src="~/js/jquery.fancybox.min.js"></script>
+    <script src="~/js/jquery.sticky.js"></script>
+    <script src="~/js/jquery.mb.YTPlayer.min.js"></script>
+
+    @RenderSection("Scripts", false)
+
+    <script>
+        $(document).ready(function () {
+
+            $('#CultureList').on('change', function () {
+                $.ajax({
+                    url: '/home/ChangeLanguage',
+                    data: { culture: $(this).val() },
+                    dataType: 'json',
+                    type: 'POST',
+                    success: function (response) {
+                        location.reload();
+                    },
+                    error: function (xhr, status, error) {
+
+                    }
+                });
+            });
+
+        })
+    </script>
+
+    <script src="~/js/main.js"></script>
+    <!-- Scripts End -->
+</body>
+</html>

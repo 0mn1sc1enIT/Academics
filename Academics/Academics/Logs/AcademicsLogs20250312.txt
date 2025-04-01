@@ -1,0 +1,113 @@
+2025-03-12 18:49:21.301 +05:00 [INF] User profile is available. Using 'C:\Users\acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-12 18:49:21.499 +05:00 [INF] Now listening on: http://localhost:5080
+2025-03-12 18:49:21.552 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-12 18:49:21.553 +05:00 [INF] Hosting environment: Development
+2025-03-12 18:49:21.554 +05:00 [INF] Content root path: C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics
+2025-03-12 18:49:22.665 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/ - null null
+2025-03-12 18:49:22.803 +05:00 [INF] Executing endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-03-12 18:49:22.854 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Academics.Controllers.HomeController (Academics).
+2025-03-12 18:49:22.862 +05:00 [INF] Сourses page visited
+2025-03-12 18:49:22.894 +05:00 [INF] Сourses page visited
+2025-03-12 18:49:22.903 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-12 18:49:23.034 +05:00 [INF] Executed ViewResult - view Index executed in 134.1564ms.
+2025-03-12 18:49:23.037 +05:00 [INF] Executed action Academics.Controllers.HomeController.Index (Academics) in 179.4447ms
+2025-03-12 18:49:23.038 +05:00 [INF] Executed endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-03-12 18:49:23.043 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/ - 200 null text/html; charset=utf-8 399.1177ms
+2025-03-12 18:49:23.133 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-12 18:49:23.133 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-12 18:49:23.147 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 14.5571ms
+2025-03-12 18:49:23.238 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 106.3192ms
+2025-03-12 18:49:28.329 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5080/home/ChangeLanguage - application/x-www-form-urlencoded; charset=UTF-8 13
+2025-03-12 18:49:28.340 +05:00 [INF] Executing endpoint 'Academics.Controllers.HomeController.ChangeLanguage (Academics)'
+2025-03-12 18:49:28.357 +05:00 [INF] Route matched with {action = "ChangeLanguage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult ChangeLanguage(System.String) on controller Academics.Controllers.HomeController (Academics).
+2025-03-12 18:49:28.397 +05:00 [INF] Executing JsonResult, writing value of type 'System.String'.
+2025-03-12 18:49:28.402 +05:00 [INF] Executed action Academics.Controllers.HomeController.ChangeLanguage (Academics) in 42.4434ms
+2025-03-12 18:49:28.404 +05:00 [INF] Executed endpoint 'Academics.Controllers.HomeController.ChangeLanguage (Academics)'
+2025-03-12 18:49:28.406 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5080/home/ChangeLanguage - 200 null application/json; charset=utf-8 77.2139ms
+2025-03-12 18:49:28.418 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/ - null null
+2025-03-12 18:49:28.428 +05:00 [INF] Executing endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-03-12 18:49:28.429 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Academics.Controllers.HomeController (Academics).
+2025-03-12 18:49:28.432 +05:00 [INF] Сourses page visited
+2025-03-12 18:49:28.504 +05:00 [INF] Сourses page visited
+2025-03-12 18:49:28.506 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-12 18:49:28.534 +05:00 [INF] Executed ViewResult - view Index executed in 28.8658ms.
+2025-03-12 18:49:28.535 +05:00 [INF] Executed action Academics.Controllers.HomeController.Index (Academics) in 104.4701ms
+2025-03-12 18:49:28.538 +05:00 [INF] Executed endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-03-12 18:49:28.540 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/ - 200 null text/html; charset=utf-8 122.7493ms
+2025-03-12 18:49:28.680 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-12 18:49:28.695 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.225ms
+2025-03-12 18:49:28.730 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-12 18:49:28.736 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 7.0707ms
+2025-03-12 18:49:46.278 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5080/home/ChangeLanguage - application/x-www-form-urlencoded; charset=UTF-8 13
+2025-03-12 18:49:46.285 +05:00 [INF] Executing endpoint 'Academics.Controllers.HomeController.ChangeLanguage (Academics)'
+2025-03-12 18:49:46.287 +05:00 [INF] Route matched with {action = "ChangeLanguage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult ChangeLanguage(System.String) on controller Academics.Controllers.HomeController (Academics).
+2025-03-12 18:49:46.290 +05:00 [INF] Executing JsonResult, writing value of type 'System.String'.
+2025-03-12 18:49:46.291 +05:00 [INF] Executed action Academics.Controllers.HomeController.ChangeLanguage (Academics) in 1.8379ms
+2025-03-12 18:49:46.291 +05:00 [INF] Executed endpoint 'Academics.Controllers.HomeController.ChangeLanguage (Academics)'
+2025-03-12 18:49:46.292 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5080/home/ChangeLanguage - 200 null application/json; charset=utf-8 13.7473ms
+2025-03-12 18:49:46.300 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/ - null null
+2025-03-12 18:49:46.303 +05:00 [INF] Executing endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-03-12 18:49:46.304 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Academics.Controllers.HomeController (Academics).
+2025-03-12 18:49:46.306 +05:00 [INF] Сourses page visited
+2025-03-12 18:49:46.345 +05:00 [INF] Сourses page visited
+2025-03-12 18:49:46.346 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-12 18:49:46.353 +05:00 [INF] Executed ViewResult - view Index executed in 7.2778ms.
+2025-03-12 18:49:46.354 +05:00 [INF] Executed action Academics.Controllers.HomeController.Index (Academics) in 48.2349ms
+2025-03-12 18:49:46.355 +05:00 [INF] Executed endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-03-12 18:49:46.356 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/ - 200 null text/html; charset=utf-8 56.821ms
+2025-03-12 18:49:46.370 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-12 18:49:46.375 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-12 18:49:46.375 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 5.6436ms
+2025-03-12 18:49:46.378 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 2.5565ms
+2025-03-12 18:49:47.091 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/Admissions - null null
+2025-03-12 18:49:47.097 +05:00 [INF] Executing endpoint 'Academics.Controllers.AdmissionsController.Index (Academics)'
+2025-03-12 18:49:47.100 +05:00 [INF] Route matched with {action = "Index", controller = "Admissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Academics.Controllers.AdmissionsController (Academics).
+2025-03-12 18:49:47.103 +05:00 [INF] Admissions page visited
+2025-03-12 18:49:47.105 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-12 18:49:47.136 +05:00 [INF] Executed ViewResult - view Index executed in 31.9731ms.
+2025-03-12 18:49:47.138 +05:00 [INF] Executed action Academics.Controllers.AdmissionsController.Index (Academics) in 36.7447ms
+2025-03-12 18:49:47.139 +05:00 [INF] Executed endpoint 'Academics.Controllers.AdmissionsController.Index (Academics)'
+2025-03-12 18:49:47.141 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/Admissions - 200 null text/html; charset=utf-8 49.9379ms
+2025-03-12 18:49:47.170 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-12 18:49:47.170 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-12 18:49:47.172 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 2.7257ms
+2025-03-12 18:49:47.183 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.0375ms
+2025-03-12 18:49:48.207 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/Contact - null null
+2025-03-12 18:49:48.213 +05:00 [INF] Executing endpoint 'Academics.Controllers.ContactController.Index (Academics)'
+2025-03-12 18:49:48.215 +05:00 [INF] Route matched with {action = "Index", controller = "Contact"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Academics.Controllers.ContactController (Academics).
+2025-03-12 18:49:48.221 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-12 18:49:48.261 +05:00 [INF] Executed ViewResult - view Index executed in 41.5772ms.
+2025-03-12 18:49:48.262 +05:00 [INF] Executed action Academics.Controllers.ContactController.Index (Academics) in 45.3372ms
+2025-03-12 18:49:48.263 +05:00 [INF] Executed endpoint 'Academics.Controllers.ContactController.Index (Academics)'
+2025-03-12 18:49:48.264 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/Contact - 200 null text/html; charset=utf-8 56.9316ms
+2025-03-12 18:49:48.279 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-12 18:49:48.288 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-12 18:49:48.291 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.9989ms
+2025-03-12 18:49:48.292 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 3.9873ms
+2025-03-12 18:49:50.227 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/Admissions - null null
+2025-03-12 18:49:50.232 +05:00 [INF] Executing endpoint 'Academics.Controllers.AdmissionsController.Index (Academics)'
+2025-03-12 18:49:50.233 +05:00 [INF] Route matched with {action = "Index", controller = "Admissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Academics.Controllers.AdmissionsController (Academics).
+2025-03-12 18:49:50.234 +05:00 [INF] Admissions page visited
+2025-03-12 18:49:50.235 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-12 18:49:50.238 +05:00 [INF] Executed ViewResult - view Index executed in 3.1462ms.
+2025-03-12 18:49:50.239 +05:00 [INF] Executed action Academics.Controllers.AdmissionsController.Index (Academics) in 5.3274ms
+2025-03-12 18:49:50.240 +05:00 [INF] Executed endpoint 'Academics.Controllers.AdmissionsController.Index (Academics)'
+2025-03-12 18:49:50.242 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/Admissions - 200 null text/html; charset=utf-8 14.7454ms
+2025-03-12 18:49:50.266 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-12 18:49:50.266 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-12 18:49:50.274 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 8.0137ms
+2025-03-12 18:49:50.278 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.3461ms
+2025-03-12 18:49:55.031 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/Admissions - null null
+2025-03-12 18:49:55.034 +05:00 [INF] Executing endpoint 'Academics.Controllers.AdmissionsController.Index (Academics)'
+2025-03-12 18:49:55.035 +05:00 [INF] Route matched with {action = "Index", controller = "Admissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Academics.Controllers.AdmissionsController (Academics).
+2025-03-12 18:49:55.037 +05:00 [INF] Admissions page visited
+2025-03-12 18:49:55.038 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-12 18:49:55.041 +05:00 [INF] Executed ViewResult - view Index executed in 3.0494ms.
+2025-03-12 18:49:55.042 +05:00 [INF] Executed action Academics.Controllers.AdmissionsController.Index (Academics) in 4.9503ms
+2025-03-12 18:49:55.043 +05:00 [INF] Executed endpoint 'Academics.Controllers.AdmissionsController.Index (Academics)'
+2025-03-12 18:49:55.044 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/Admissions - 200 null text/html; charset=utf-8 12.9725ms
+2025-03-12 18:49:55.069 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-12 18:49:55.069 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-12 18:49:55.072 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 2.5917ms
+2025-03-12 18:49:55.078 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.8265ms
+2025-03-12 18:55:17.047 +05:00 [INF] Application is shutting down...

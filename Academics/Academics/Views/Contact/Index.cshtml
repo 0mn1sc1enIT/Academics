@@ -1,0 +1,56 @@
+﻿@model Message
+@{
+    ViewData["Title"] = localizer["contact"].Value;
+    ViewData["Description"] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+    ViewData["Keywords"] = "lorem, ipsum, dolor, sit, amet";
+
+    ViewData["FirstPage"] = localizer["contact"].Value;
+    ViewData["FirstPageAction"] = "Index";
+    ViewData["FirstPageController"] = "Contact";
+    ViewData["PageDescription"] = localizer["description"].Value;
+}
+<div class="site-section">
+    <div class="container">
+        <h4 class="contact-title">@localizer["send"]</h4>
+        <form id="contact-form"
+              asp-controller="Contact"
+              asp-action="Index"
+              method="post">
+            <div class="row">
+                <div class="col-md-6 form-group">
+                    <label asp-for="firstName"></label>
+                    <input type="text" asp-for="firstName" class="form-control form-control-lg" placeholder="@localizer["first_name"]">
+                    <span asp-validation-for="firstName" class="text-danger"></span>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label asp-for="lastName"></label>
+                    <input type="text" asp-for="lastName" class="form-control form-control-lg" placeholder="@localizer["last_name"]">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 form-group">
+                    <label asp-for="email"></label>
+                    <input type="text" asp-for="email" class="form-control form-control-lg" placeholder="@localizer["email"]">
+                    <span asp-validation-for="email" class="text-danger"></span>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label asp-for="phoneNumber"></label>
+                    <input type="text" asp-for="phoneNumber" class="form-control form-control-lg" placeholder="@localizer["phone"]">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 form-group">
+                    <label asp-for="message"></label>
+                    <textarea asp-for="message" cols="30" rows="10" class="form-control" placeholder="@localizer["message"]"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary btn-lg px-5">@localizer["send_message"]</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+@Html.Partial("Feature")
+@Html.Partial("NewsLetter")

@@ -1,0 +1,44 @@
+﻿@model Register
+@{
+    ViewData["Title"] = localizer["register"].Value;
+    ViewData["Description"] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+    ViewData["Keywords"] = "lorem, ipsum, dolor, sit, amet";
+
+    ViewData["FirstPage"] = localizer["register"].Value;
+    ViewData["FirstPageAction"] = "Register";
+    ViewData["FirstPageController"] = "Account";
+    ViewData["PageDescription"] = localizer["description"].Value;
+}
+
+<div class="site-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <form asp-action="Register" method="post">
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <label asp-for="Email"></label>
+                            <input asp-for="Email" class="form-control form-control-lg">
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-12 form-group">
+                            <label asp-for="Password"></label>
+                            <input asp-for="Password" type="password" class="form-control form-control-lg">
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-12 form-group">
+                            <label asp-for="ConfirmPassword"></label>
+                            <input asp-for="ConfirmPassword" type="password" class="form-control form-control-lg">
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <input type="submit" value="@localizer["register"]" class="btn btn-primary btn-lg px-5">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

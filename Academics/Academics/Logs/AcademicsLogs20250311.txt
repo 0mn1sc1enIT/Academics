@@ -1,0 +1,472 @@
+2025-03-11 08:08:59.927 +05:00 [INF] User profile is available. Using 'C:\Users\acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-11 08:09:00.196 +05:00 [INF] Now listening on: http://localhost:5080
+2025-03-11 08:09:00.273 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-11 08:09:00.276 +05:00 [INF] Hosting environment: Development
+2025-03-11 08:09:00.279 +05:00 [INF] Content root path: C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics
+2025-03-11 08:09:02.975 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/ - null null
+2025-03-11 08:09:03.136 +05:00 [INF] Executing endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-03-11 08:09:03.200 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Academics.Controllers.HomeController (Academics).
+2025-03-11 08:09:03.207 +05:00 [INF] Сourses page visited
+2025-03-11 08:09:03.312 +05:00 [INF] Сourses page visited
+2025-03-11 08:09:03.327 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-11 08:09:03.554 +05:00 [INF] Executed ViewResult - view Index executed in 231.7443ms.
+2025-03-11 08:09:03.559 +05:00 [INF] Executed action Academics.Controllers.HomeController.Index (Academics) in 355.0323ms
+2025-03-11 08:09:03.562 +05:00 [INF] Executed endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-03-11 08:09:03.572 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/ - 200 null text/html; charset=utf-8 618.0016ms
+2025-03-11 08:09:03.635 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/css/owl.theme.default.min.css - null null
+2025-03-11 08:09:03.635 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/fonts/icomoon/style.css - null null
+2025-03-11 08:09:03.635 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/css/owl.carousel.min.css - null null
+2025-03-11 08:09:03.635 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/css/bootstrap.min.css - null null
+2025-03-11 08:09:03.635 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/css/jquery-ui.css - null null
+2025-03-11 08:09:03.635 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/css/jquery.fancybox.min.css - null null
+2025-03-11 08:09:03.706 +05:00 [INF] Sending file. Request path: '/css/owl.theme.default.min.css'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\css\owl.theme.default.min.css'
+2025-03-11 08:09:03.717 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/css/owl.theme.default.min.css - 200 965 text/css 125.9496ms
+2025-03-11 08:09:03.718 +05:00 [INF] Sending file. Request path: '/fonts/icomoon/style.css'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\fonts\icomoon\style.css'
+2025-03-11 08:09:03.718 +05:00 [INF] Sending file. Request path: '/css/owl.carousel.min.css'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\css\owl.carousel.min.css'
+2025-03-11 08:09:03.726 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/css/bootstrap-datepicker.css - null null
+2025-03-11 08:09:03.729 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/fonts/icomoon/style.css - 200 79820 text/css 138.1304ms
+2025-03-11 08:09:03.732 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/css/owl.carousel.min.css - 200 2936 text/css 129.9574ms
+2025-03-11 08:09:03.718 +05:00 [INF] Sending file. Request path: '/css/jquery-ui.css'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\css\jquery-ui.css'
+2025-03-11 08:09:03.746 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/css/aos.css - null null
+2025-03-11 08:09:03.753 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/fonts/flaticon/font/flaticon.css - null null
+2025-03-11 08:09:03.766 +05:00 [INF] Sending file. Request path: '/css/bootstrap-datepicker.css'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\css\bootstrap-datepicker.css'
+2025-03-11 08:09:03.772 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/css/bootstrap-datepicker.css - 200 17144 text/css 45.8388ms
+2025-03-11 08:09:03.757 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/css/jquery-ui.css - 200 21738 text/css 165.701ms
+2025-03-11 08:09:03.718 +05:00 [INF] Sending file. Request path: '/css/jquery.fancybox.min.css'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\css\jquery.fancybox.min.css'
+2025-03-11 08:09:03.778 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/images/logo.png - null null
+2025-03-11 08:09:03.789 +05:00 [INF] Sending file. Request path: '/fonts/flaticon/font/flaticon.css'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\fonts\flaticon\font\flaticon.css'
+2025-03-11 08:09:03.792 +05:00 [INF] Sending file. Request path: '/css/aos.css'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\css\aos.css'
+2025-03-11 08:09:03.797 +05:00 [INF] Sending file. Request path: '/images/logo.png'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\images\logo.png'
+2025-03-11 08:09:03.799 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/fonts/flaticon/font/flaticon.css - 200 1535 text/css 46.8085ms
+2025-03-11 08:09:03.804 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/css/aos.css - 200 25983 text/css 58.3385ms
+2025-03-11 08:09:03.807 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/images/logo.png - 200 2990 image/png 29.3426ms
+2025-03-11 08:09:03.815 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/js/jquery-3.3.1.min.js - null null
+2025-03-11 08:09:03.820 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/js/jquery-migrate-3.0.1.min.js - null null
+2025-03-11 08:09:03.827 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/js/jquery-ui.js - null null
+2025-03-11 08:09:03.785 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/css/jquery.mb.YTPlayer.min.css - null null
+2025-03-11 08:09:03.788 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/css/jquery.fancybox.min.css - 200 12795 text/css 176.7206ms
+2025-03-11 08:09:03.718 +05:00 [INF] Sending file. Request path: '/css/bootstrap.min.css'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\css\bootstrap.min.css'
+2025-03-11 08:09:03.853 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/css/style.css - null null
+2025-03-11 08:09:03.855 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/css/bootstrap.min.css - 200 160341 text/css 263.6811ms
+2025-03-11 08:09:03.864 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/images/logo.jpg - null null
+2025-03-11 08:09:03.886 +05:00 [INF] Sending file. Request path: '/images/logo.jpg'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\images\logo.jpg'
+2025-03-11 08:09:03.891 +05:00 [INF] Sending file. Request path: '/js/jquery-migrate-3.0.1.min.js'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\js\jquery-migrate-3.0.1.min.js'
+2025-03-11 08:09:03.897 +05:00 [INF] Sending file. Request path: '/css/jquery.mb.YTPlayer.min.css'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\css\jquery.mb.YTPlayer.min.css'
+2025-03-11 08:09:03.897 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/images/logo.jpg - 200 3864 image/jpeg 32.0208ms
+2025-03-11 08:09:03.899 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/js/jquery-migrate-3.0.1.min.js - 200 11421 text/javascript 78.6852ms
+2025-03-11 08:09:03.903 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/css/jquery.mb.YTPlayer.min.css - 200 9177 text/css 117.6566ms
+2025-03-11 08:09:03.907 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/js/popper.min.js - null null
+2025-03-11 08:09:03.915 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/js/owl.carousel.min.js - null null
+2025-03-11 08:09:03.922 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/js/jquery.stellar.min.js - null null
+2025-03-11 08:09:03.890 +05:00 [INF] Sending file. Request path: '/css/style.css'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\css\style.css'
+2025-03-11 08:09:03.898 +05:00 [INF] Sending file. Request path: '/js/jquery-ui.js'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\js\jquery-ui.js'
+2025-03-11 08:09:03.939 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/css/style.css - 200 32529 text/css 86.4982ms
+2025-03-11 08:09:03.942 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/js/jquery-ui.js - 200 45799 text/javascript 114.7898ms
+2025-03-11 08:09:03.949 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/js/bootstrap.min.js - null null
+2025-03-11 08:09:03.957 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/js/jquery.countdown.min.js - null null
+2025-03-11 08:09:03.966 +05:00 [INF] Sending file. Request path: '/js/jquery-3.3.1.min.js'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\js\jquery-3.3.1.min.js'
+2025-03-11 08:09:03.971 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/js/jquery-3.3.1.min.js - 200 86926 text/javascript 156.099ms
+2025-03-11 08:09:03.979 +05:00 [INF] Sending file. Request path: '/js/popper.min.js'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\js\popper.min.js'
+2025-03-11 08:09:03.982 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/js/bootstrap-datepicker.min.js - null null
+2025-03-11 08:09:03.985 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/js/popper.min.js - 200 20336 text/javascript 78.0489ms
+2025-03-11 08:09:03.997 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/js/jquery.easing.1.3.js - null null
+2025-03-11 08:09:04.002 +05:00 [INF] Sending file. Request path: '/js/jquery.stellar.min.js'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\js\jquery.stellar.min.js'
+2025-03-11 08:09:04.011 +05:00 [INF] Sending file. Request path: '/js/owl.carousel.min.js'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\js\owl.carousel.min.js'
+2025-03-11 08:09:04.013 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/js/jquery.stellar.min.js - 200 12597 text/javascript 91.2127ms
+2025-03-11 08:09:04.017 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/js/owl.carousel.min.js - 200 42766 text/javascript 101.3943ms
+2025-03-11 08:09:04.023 +05:00 [INF] Sending file. Request path: '/js/jquery.countdown.min.js'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\js\jquery.countdown.min.js'
+2025-03-11 08:09:04.028 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/js/aos.js - null null
+2025-03-11 08:09:04.038 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/js/jquery.fancybox.min.js - null null
+2025-03-11 08:09:04.042 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/js/jquery.countdown.min.js - 200 5339 text/javascript 85.2019ms
+2025-03-11 08:09:04.059 +05:00 [INF] Sending file. Request path: '/js/bootstrap.min.js'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\js\bootstrap.min.js'
+2025-03-11 08:09:04.061 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/js/jquery.sticky.js - null null
+2025-03-11 08:09:04.064 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/js/bootstrap.min.js - 200 51039 text/javascript 115.1797ms
+2025-03-11 08:09:04.073 +05:00 [INF] Sending file. Request path: '/js/bootstrap-datepicker.min.js'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\js\bootstrap-datepicker.min.js'
+2025-03-11 08:09:04.062 +05:00 [INF] Sending file. Request path: '/js/jquery.easing.1.3.js'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\js\jquery.easing.1.3.js'
+2025-03-11 08:09:04.080 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/js/jquery.mb.YTPlayer.min.js - null null
+2025-03-11 08:09:04.083 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/js/bootstrap-datepicker.min.js - 200 34172 text/javascript 100.5827ms
+2025-03-11 08:09:04.087 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/js/jquery.easing.1.3.js - 200 8111 text/javascript 89.6763ms
+2025-03-11 08:09:04.114 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-11 08:09:04.111 +05:00 [INF] Sending file. Request path: '/js/aos.js'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\js\aos.js'
+2025-03-11 08:09:04.121 +05:00 [INF] Sending file. Request path: '/js/jquery.sticky.js'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\js\jquery.sticky.js'
+2025-03-11 08:09:04.132 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 22.2368ms
+2025-03-11 08:09:04.139 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/js/jquery.sticky.js - 200 10084 text/javascript 77.9506ms
+2025-03-11 08:09:04.129 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/js/aos.js - 200 14244 text/javascript 101.9814ms
+2025-03-11 08:09:04.158 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/fonts/icomoon/fonts/icomoon.ttf?10si43 - null null
+2025-03-11 08:09:04.164 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/images/bg_1.jpg - null null
+2025-03-11 08:09:04.173 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-11 08:09:04.155 +05:00 [INF] Sending file. Request path: '/js/jquery.fancybox.min.js'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\js\jquery.fancybox.min.js'
+2025-03-11 08:09:04.120 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/js/main.js - null null
+2025-03-11 08:09:04.193 +05:00 [INF] Sending file. Request path: '/images/bg_1.jpg'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\images\bg_1.jpg'
+2025-03-11 08:09:04.195 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/js/jquery.fancybox.min.js - 200 68196 text/javascript 157.2816ms
+2025-03-11 08:09:04.204 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/images/bg_1.jpg - 200 135479 image/jpeg 39.3549ms
+2025-03-11 08:09:04.215 +05:00 [INF] Sending file. Request path: '/js/jquery.mb.YTPlayer.min.js'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\js\jquery.mb.YTPlayer.min.js'
+2025-03-11 08:09:04.222 +05:00 [INF] Sending file. Request path: '/fonts/icomoon/fonts/icomoon.ttf'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\fonts\icomoon\fonts\icomoon.ttf'
+2025-03-11 08:09:04.224 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/js/jquery.mb.YTPlayer.min.js - 200 62550 text/javascript 143.9913ms
+2025-03-11 08:09:04.227 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/fonts/icomoon/fonts/icomoon.ttf?10si43 - 200 307168 application/x-font-ttf 68.8096ms
+2025-03-11 08:09:04.258 +05:00 [INF] Sending file. Request path: '/js/main.js'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\js\main.js'
+2025-03-11 08:09:04.262 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/js/main.js - 200 7589 text/javascript 142.8099ms
+2025-03-11 08:09:04.287 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 113.8408ms
+2025-03-11 08:09:04.294 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/images/hero_1.jpg - null null
+2025-03-11 08:09:04.310 +05:00 [INF] Sending file. Request path: '/images/hero_1.jpg'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\images\hero_1.jpg'
+2025-03-11 08:09:04.315 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/images/hero_1.jpg - 200 486859 image/jpeg 20.4751ms
+2025-03-11 08:09:10.927 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5080/home/ChangeLanguage - application/x-www-form-urlencoded; charset=UTF-8 13
+2025-03-11 08:09:10.952 +05:00 [INF] Executing endpoint 'Academics.Controllers.HomeController.ChangeLanguage (Academics)'
+2025-03-11 08:09:10.985 +05:00 [INF] Route matched with {action = "ChangeLanguage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult ChangeLanguage(System.String) on controller Academics.Controllers.HomeController (Academics).
+2025-03-11 08:09:11.056 +05:00 [INF] Executing JsonResult, writing value of type 'System.String'.
+2025-03-11 08:09:11.071 +05:00 [INF] Executed action Academics.Controllers.HomeController.ChangeLanguage (Academics) in 75.0799ms
+2025-03-11 08:09:11.077 +05:00 [INF] Executed endpoint 'Academics.Controllers.HomeController.ChangeLanguage (Academics)'
+2025-03-11 08:09:11.083 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5080/home/ChangeLanguage - 200 null application/json; charset=utf-8 155.9174ms
+2025-03-11 08:09:11.105 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/ - null null
+2025-03-11 08:09:11.128 +05:00 [INF] Executing endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-03-11 08:09:11.134 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Academics.Controllers.HomeController (Academics).
+2025-03-11 08:09:11.143 +05:00 [INF] Сourses page visited
+2025-03-11 08:09:11.240 +05:00 [INF] Сourses page visited
+2025-03-11 08:09:11.258 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-11 08:09:11.294 +05:00 [INF] Executed ViewResult - view Index executed in 47.9137ms.
+2025-03-11 08:09:11.301 +05:00 [INF] Executed action Academics.Controllers.HomeController.Index (Academics) in 159.8756ms
+2025-03-11 08:09:11.307 +05:00 [INF] Executed endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-03-11 08:09:11.315 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/ - 200 null text/html; charset=utf-8 210.1224ms
+2025-03-11 08:09:11.343 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-11 08:09:11.343 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-11 08:09:11.364 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.5043ms
+2025-03-11 08:09:11.369 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 25.6453ms
+2025-03-11 08:09:11.518 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/favicon.ico - null null
+2025-03-11 08:09:11.578 +05:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\favicon.ico'
+2025-03-11 08:09:11.586 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/favicon.ico - 200 5430 image/x-icon 67.771ms
+2025-03-11 08:09:30.671 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5080/home/ChangeLanguage - application/x-www-form-urlencoded; charset=UTF-8 13
+2025-03-11 08:09:30.688 +05:00 [INF] Executing endpoint 'Academics.Controllers.HomeController.ChangeLanguage (Academics)'
+2025-03-11 08:09:30.695 +05:00 [INF] Route matched with {action = "ChangeLanguage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult ChangeLanguage(System.String) on controller Academics.Controllers.HomeController (Academics).
+2025-03-11 08:09:30.708 +05:00 [INF] Executing JsonResult, writing value of type 'System.String'.
+2025-03-11 08:09:30.714 +05:00 [INF] Executed action Academics.Controllers.HomeController.ChangeLanguage (Academics) in 9.1479ms
+2025-03-11 08:09:30.719 +05:00 [INF] Executed endpoint 'Academics.Controllers.HomeController.ChangeLanguage (Academics)'
+2025-03-11 08:09:30.725 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5080/home/ChangeLanguage - 200 null application/json; charset=utf-8 53.8623ms
+2025-03-11 08:09:30.745 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/ - null null
+2025-03-11 08:09:30.760 +05:00 [INF] Executing endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-03-11 08:09:30.768 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Academics.Controllers.HomeController (Academics).
+2025-03-11 08:09:30.781 +05:00 [INF] Сourses page visited
+2025-03-11 08:09:30.785 +05:00 [INF] Сourses page visited
+2025-03-11 08:09:30.791 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-11 08:09:30.807 +05:00 [INF] Executed ViewResult - view Index executed in 15.8214ms.
+2025-03-11 08:09:30.813 +05:00 [INF] Executed action Academics.Controllers.HomeController.Index (Academics) in 33.3308ms
+2025-03-11 08:09:30.819 +05:00 [INF] Executed endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-03-11 08:09:30.825 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/ - 200 null text/html; charset=utf-8 79.1779ms
+2025-03-11 08:09:30.853 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-11 08:09:30.854 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-11 08:09:30.885 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 31.257ms
+2025-03-11 08:09:30.906 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.9347ms
+2025-03-11 08:09:32.364 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/About - null null
+2025-03-11 08:09:32.384 +05:00 [INF] Executing endpoint 'Academics.Controllers.AboutController.Index (Academics)'
+2025-03-11 08:09:32.397 +05:00 [INF] Route matched with {action = "Index", controller = "About"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Academics.Controllers.AboutController (Academics).
+2025-03-11 08:09:32.411 +05:00 [INF] About page visited
+2025-03-11 08:09:32.419 +05:00 [INF] Loaded 6 teachers
+2025-03-11 08:09:32.429 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-11 08:09:32.513 +05:00 [INF] Executed ViewResult - view Index executed in 87.2658ms.
+2025-03-11 08:09:32.520 +05:00 [INF] Executed action Academics.Controllers.AboutController.Index (Academics) in 113.3182ms
+2025-03-11 08:09:32.525 +05:00 [INF] Executed endpoint 'Academics.Controllers.AboutController.Index (Academics)'
+2025-03-11 08:09:32.528 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/About - 200 null text/html; charset=utf-8 164.4073ms
+2025-03-11 08:09:32.560 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/images/course_4.jpg - null null
+2025-03-11 08:09:32.567 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/images/person_2.jpg - null null
+2025-03-11 08:09:32.569 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/images/person_3.jpg - null null
+2025-03-11 08:09:32.568 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-11 08:09:32.602 +05:00 [INF] Sending file. Request path: '/images/person_3.jpg'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\images\person_3.jpg'
+2025-03-11 08:09:32.566 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/images/person_1.jpg - null null
+2025-03-11 08:09:32.609 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 40.5087ms
+2025-03-11 08:09:32.617 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/images/person_3.jpg - 200 40298 image/jpeg 47.1284ms
+2025-03-11 08:09:32.629 +05:00 [INF] Sending file. Request path: '/images/person_1.jpg'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\images\person_1.jpg'
+2025-03-11 08:09:32.565 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/images/course_5.jpg - null null
+2025-03-11 08:09:32.588 +05:00 [INF] Sending file. Request path: '/images/course_4.jpg'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\images\course_4.jpg'
+2025-03-11 08:09:32.648 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/images/person_1.jpg - 200 52200 image/jpeg 81.7243ms
+2025-03-11 08:09:32.660 +05:00 [INF] Sending file. Request path: '/images/course_5.jpg'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\images\course_5.jpg'
+2025-03-11 08:09:32.662 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/images/course_4.jpg - 200 41165 image/jpeg 101.6865ms
+2025-03-11 08:09:32.669 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/fonts/flaticon/font/Flaticon.woff2 - null null
+2025-03-11 08:09:32.674 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/images/course_5.jpg - 200 53149 image/jpeg 109.6562ms
+2025-03-11 08:09:32.682 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/images/person_4.jpg - null null
+2025-03-11 08:09:32.590 +05:00 [INF] Sending file. Request path: '/images/person_2.jpg'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\images\person_2.jpg'
+2025-03-11 08:09:32.710 +05:00 [INF] Sending file. Request path: '/images/person_4.jpg'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\images\person_4.jpg'
+2025-03-11 08:09:32.711 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/images/person_2.jpg - 200 42114 image/jpeg 144.5768ms
+2025-03-11 08:09:32.722 +05:00 [INF] Sending file. Request path: '/fonts/flaticon/font/Flaticon.woff2'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\fonts\flaticon\font\Flaticon.woff2'
+2025-03-11 08:09:32.716 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/images/person_4.jpg - 200 39649 image/jpeg 33.7392ms
+2025-03-11 08:09:32.727 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-11 08:09:32.731 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/fonts/flaticon/font/Flaticon.woff2 - 200 3368 font/woff2 61.2897ms
+2025-03-11 08:09:32.765 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.115ms
+2025-03-11 08:09:36.706 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/Courses - null null
+2025-03-11 08:09:36.743 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-03-11 08:09:36.761 +05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-11 08:09:36.769 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/Courses - 302 0 null 63.1193ms
+2025-03-11 08:09:36.784 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/Account/Login?ReturnUrl=%2FCourses - null null
+2025-03-11 08:09:36.804 +05:00 [INF] Executing endpoint 'Academics.Controllers.AccountController.Login (Academics)'
+2025-03-11 08:09:36.813 +05:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Academics.Controllers.AccountController (Academics).
+2025-03-11 08:09:37.296 +05:00 [INF] Login page visited
+2025-03-11 08:09:37.302 +05:00 [INF] Executing ViewResult, running view Login.
+2025-03-11 08:09:37.396 +05:00 [INF] Executed ViewResult - view Login executed in 96.0129ms.
+2025-03-11 08:09:37.403 +05:00 [INF] Executed action Academics.Controllers.AccountController.Login (Academics) in 579.4137ms
+2025-03-11 08:09:37.407 +05:00 [INF] Executed endpoint 'Academics.Controllers.AccountController.Login (Academics)'
+2025-03-11 08:09:37.418 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/Account/Login?ReturnUrl=%2FCourses - 200 null text/html; charset=utf-8 634.3385ms
+2025-03-11 08:09:37.428 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-11 08:09:37.431 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-11 08:09:37.451 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 18.8004ms
+2025-03-11 08:09:37.454 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.2399ms
+2025-03-11 08:09:38.380 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/Contact - null null
+2025-03-11 08:09:38.397 +05:00 [INF] Executing endpoint 'Academics.Controllers.ContactController.Index (Academics)'
+2025-03-11 08:09:38.406 +05:00 [INF] Route matched with {action = "Index", controller = "Contact"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Academics.Controllers.ContactController (Academics).
+2025-03-11 08:09:38.417 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-11 08:09:38.489 +05:00 [INF] Executed ViewResult - view Index executed in 73.9247ms.
+2025-03-11 08:09:38.496 +05:00 [INF] Executed action Academics.Controllers.ContactController.Index (Academics) in 83.5111ms
+2025-03-11 08:09:38.501 +05:00 [INF] Executed endpoint 'Academics.Controllers.ContactController.Index (Academics)'
+2025-03-11 08:09:38.508 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/Contact - 200 null text/html; charset=utf-8 127.7467ms
+2025-03-11 08:09:38.524 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-11 08:09:38.525 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-11 08:09:38.552 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 26.8924ms
+2025-03-11 08:09:38.558 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.3963ms
+2025-03-11 08:10:20.556 +05:00 [INF] User profile is available. Using 'C:\Users\acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-11 08:10:20.886 +05:00 [INF] Now listening on: http://localhost:5080
+2025-03-11 08:10:21.028 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-11 08:10:21.030 +05:00 [INF] Hosting environment: Development
+2025-03-11 08:10:21.031 +05:00 [INF] Content root path: C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics
+2025-03-11 08:10:21.620 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/ - null null
+2025-03-11 08:10:21.769 +05:00 [INF] Executing endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-03-11 08:10:21.834 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Academics.Controllers.HomeController (Academics).
+2025-03-11 08:10:21.850 +05:00 [INF] Сourses page visited
+2025-03-11 08:10:21.958 +05:00 [INF] Сourses page visited
+2025-03-11 08:10:21.972 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-11 08:10:22.182 +05:00 [INF] Executed ViewResult - view Index executed in 214.7611ms.
+2025-03-11 08:10:22.188 +05:00 [INF] Executed action Academics.Controllers.HomeController.Index (Academics) in 342.5733ms
+2025-03-11 08:10:22.192 +05:00 [INF] Executed endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-03-11 08:10:22.201 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/ - 200 null text/html; charset=utf-8 594.8764ms
+2025-03-11 08:10:22.248 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-11 08:10:22.248 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-11 08:10:22.261 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 13.7324ms
+2025-03-11 08:10:22.296 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.5549ms
+2025-03-11 08:10:23.714 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/Courses - null null
+2025-03-11 08:10:23.753 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-03-11 08:10:23.766 +05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-11 08:10:23.770 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/Courses - 302 0 null 56.0355ms
+2025-03-11 08:10:23.777 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/Account/Login?ReturnUrl=%2FCourses - null null
+2025-03-11 08:10:23.805 +05:00 [INF] Executing endpoint 'Academics.Controllers.AccountController.Login (Academics)'
+2025-03-11 08:10:23.813 +05:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Academics.Controllers.AccountController (Academics).
+2025-03-11 08:10:24.147 +05:00 [INF] Login page visited
+2025-03-11 08:10:24.154 +05:00 [INF] Executing ViewResult, running view Login.
+2025-03-11 08:10:24.305 +05:00 [INF] Executed ViewResult - view Login executed in 154.023ms.
+2025-03-11 08:10:24.310 +05:00 [INF] Executed action Academics.Controllers.AccountController.Login (Academics) in 492.3359ms
+2025-03-11 08:10:24.313 +05:00 [INF] Executed endpoint 'Academics.Controllers.AccountController.Login (Academics)'
+2025-03-11 08:10:24.320 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/Account/Login?ReturnUrl=%2FCourses - 200 null text/html; charset=utf-8 542.5915ms
+2025-03-11 08:10:24.338 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-11 08:10:24.338 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-11 08:10:24.346 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 7.7789ms
+2025-03-11 08:10:24.413 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.875ms
+2025-03-11 08:10:26.146 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/Contact - null null
+2025-03-11 08:10:26.157 +05:00 [INF] Executing endpoint 'Academics.Controllers.ContactController.Index (Academics)'
+2025-03-11 08:10:26.164 +05:00 [INF] Route matched with {action = "Index", controller = "Contact"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Academics.Controllers.ContactController (Academics).
+2025-03-11 08:10:26.176 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-11 08:10:26.251 +05:00 [INF] Executed ViewResult - view Index executed in 77.5613ms.
+2025-03-11 08:10:26.254 +05:00 [INF] Executed action Academics.Controllers.ContactController.Index (Academics) in 84.2789ms
+2025-03-11 08:10:26.258 +05:00 [INF] Executed endpoint 'Academics.Controllers.ContactController.Index (Academics)'
+2025-03-11 08:10:26.260 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/Contact - 200 null text/html; charset=utf-8 114.7267ms
+2025-03-11 08:10:26.293 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-11 08:10:26.299 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-11 08:10:26.313 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 13.9703ms
+2025-03-11 08:10:26.319 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.2422ms
+2025-03-11 08:10:45.285 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5080/Contact - application/x-www-form-urlencoded 237
+2025-03-11 08:10:45.303 +05:00 [INF] Executing endpoint 'Academics.Controllers.ContactController.Index (Academics)'
+2025-03-11 08:10:45.338 +05:00 [INF] Route matched with {action = "Index", controller = "Contact"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Academics.Models.Message) on controller Academics.Controllers.ContactController (Academics).
+2025-03-11 08:10:45.415 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-11 08:10:45.433 +05:00 [INF] Executed ViewResult - view Index executed in 18.3466ms.
+2025-03-11 08:10:45.440 +05:00 [INF] Executed action Academics.Controllers.ContactController.Index (Academics) in 92.8984ms
+2025-03-11 08:10:45.446 +05:00 [INF] Executed endpoint 'Academics.Controllers.ContactController.Index (Academics)'
+2025-03-11 08:10:45.454 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5080/Contact - 200 null text/html; charset=utf-8 169.3031ms
+2025-03-11 08:10:45.482 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-11 08:10:45.482 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-11 08:10:45.490 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 7.4193ms
+2025-03-11 08:10:45.509 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.1212ms
+2025-03-11 08:10:54.236 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5080/Contact - application/x-www-form-urlencoded 276
+2025-03-11 08:10:54.253 +05:00 [INF] Executing endpoint 'Academics.Controllers.ContactController.Index (Academics)'
+2025-03-11 08:10:54.258 +05:00 [INF] Route matched with {action = "Index", controller = "Contact"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Academics.Models.Message) on controller Academics.Controllers.ContactController (Academics).
+2025-03-11 08:10:54.289 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-11 08:10:54.306 +05:00 [INF] Executed ViewResult - view Index executed in 16.304ms.
+2025-03-11 08:10:54.310 +05:00 [INF] Executed action Academics.Controllers.ContactController.Index (Academics) in 40.2218ms
+2025-03-11 08:10:54.314 +05:00 [INF] Executed endpoint 'Academics.Controllers.ContactController.Index (Academics)'
+2025-03-11 08:10:54.320 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5080/Contact - 200 null text/html; charset=utf-8 83.3173ms
+2025-03-11 08:10:54.336 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-11 08:10:54.341 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-11 08:10:54.351 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.1882ms
+2025-03-11 08:10:54.352 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 10.766ms
+2025-03-11 08:11:13.873 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5080/Contact - application/x-www-form-urlencoded 276
+2025-03-11 08:11:13.895 +05:00 [INF] Executing endpoint 'Academics.Controllers.ContactController.Index (Academics)'
+2025-03-11 08:11:13.901 +05:00 [INF] Route matched with {action = "Index", controller = "Contact"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Academics.Models.Message) on controller Academics.Controllers.ContactController (Academics).
+2025-03-11 08:11:13.916 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-11 08:11:13.933 +05:00 [INF] Executed ViewResult - view Index executed in 16.2767ms.
+2025-03-11 08:11:13.941 +05:00 [INF] Executed action Academics.Controllers.ContactController.Index (Academics) in 25.4732ms
+2025-03-11 08:11:13.946 +05:00 [INF] Executed endpoint 'Academics.Controllers.ContactController.Index (Academics)'
+2025-03-11 08:11:13.952 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5080/Contact - 200 null text/html; charset=utf-8 79.5578ms
+2025-03-11 08:11:13.972 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-11 08:11:13.975 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-11 08:11:13.999 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.405ms
+2025-03-11 08:11:14.005 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 29.7134ms
+2025-03-11 08:11:47.806 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5080/Contact - application/x-www-form-urlencoded 276
+2025-03-11 08:11:47.819 +05:00 [INF] Executing endpoint 'Academics.Controllers.ContactController.Index (Academics)'
+2025-03-11 08:11:47.822 +05:00 [INF] Route matched with {action = "Index", controller = "Contact"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Academics.Models.Message) on controller Academics.Controllers.ContactController (Academics).
+2025-03-11 08:12:57.324 +05:00 [INF] User profile is available. Using 'C:\Users\acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-11 08:12:57.620 +05:00 [INF] Now listening on: http://localhost:5080
+2025-03-11 08:12:57.679 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-11 08:12:57.686 +05:00 [INF] Hosting environment: Development
+2025-03-11 08:12:57.688 +05:00 [INF] Content root path: C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics
+2025-03-11 08:12:59.114 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/ - null null
+2025-03-11 08:12:59.241 +05:00 [INF] Executing endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-03-11 08:12:59.305 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Academics.Controllers.HomeController (Academics).
+2025-03-11 08:12:59.314 +05:00 [INF] Сourses page visited
+2025-03-11 08:12:59.403 +05:00 [INF] Сourses page visited
+2025-03-11 08:12:59.418 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-11 08:12:59.645 +05:00 [INF] Executed ViewResult - view Index executed in 230.9696ms.
+2025-03-11 08:12:59.652 +05:00 [INF] Executed action Academics.Controllers.HomeController.Index (Academics) in 342.3087ms
+2025-03-11 08:12:59.656 +05:00 [INF] Executed endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-03-11 08:12:59.666 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/ - 200 null text/html; charset=utf-8 567.2335ms
+2025-03-11 08:12:59.713 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-11 08:12:59.713 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-11 08:12:59.729 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 16.1368ms
+2025-03-11 08:12:59.778 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.2234ms
+2025-03-11 08:13:01.951 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/Contact - null null
+2025-03-11 08:13:01.977 +05:00 [INF] Executing endpoint 'Academics.Controllers.ContactController.Index (Academics)'
+2025-03-11 08:13:01.984 +05:00 [INF] Route matched with {action = "Index", controller = "Contact"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Academics.Controllers.ContactController (Academics).
+2025-03-11 08:13:02.002 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-11 08:13:02.200 +05:00 [INF] Executed ViewResult - view Index executed in 199.9871ms.
+2025-03-11 08:13:02.205 +05:00 [INF] Executed action Academics.Controllers.ContactController.Index (Academics) in 208.3879ms
+2025-03-11 08:13:02.209 +05:00 [INF] Executed endpoint 'Academics.Controllers.ContactController.Index (Academics)'
+2025-03-11 08:13:02.212 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/Contact - 200 null text/html; charset=utf-8 260.9452ms
+2025-03-11 08:13:02.231 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-11 08:13:02.232 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-11 08:13:02.255 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 23.7466ms
+2025-03-11 08:13:02.298 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.6489ms
+2025-03-11 08:13:06.778 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5080/Contact - application/x-www-form-urlencoded 289
+2025-03-11 08:13:06.809 +05:00 [INF] Executing endpoint 'Academics.Controllers.ContactController.Index (Academics)'
+2025-03-11 08:13:06.851 +05:00 [INF] Route matched with {action = "Index", controller = "Contact"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Academics.Models.Message) on controller Academics.Controllers.ContactController (Academics).
+2025-03-11 08:13:06.945 +05:00 [INF] Попытка отправки сообщения для пользователя Zhumanov Ahat на электронный адрес zhumanovahat00@gmail.com
+2025-03-11 08:13:10.742 +05:00 [ERR] При попытке отправить уведомление на zhumanovahat00@gmail.com с именем Zhumanov Ahat возникла ошибка
+2025-03-11 08:13:10.760 +05:00 [INF] Executing RedirectResult, redirecting to /Contact/Success.
+2025-03-11 08:13:10.773 +05:00 [INF] Executed action Academics.Controllers.ContactController.Index (Academics) in 3903.7601ms
+2025-03-11 08:13:10.788 +05:00 [INF] Executed endpoint 'Academics.Controllers.ContactController.Index (Academics)'
+2025-03-11 08:13:10.798 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5080/Contact - 302 0 null 4021.0556ms
+2025-03-11 08:13:10.820 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/Contact/Success - null null
+2025-03-11 08:13:10.842 +05:00 [INF] Executing endpoint 'Academics.Controllers.ContactController.Success (Academics)'
+2025-03-11 08:13:10.852 +05:00 [INF] Route matched with {action = "Success", controller = "Contact"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Success() on controller Academics.Controllers.ContactController (Academics).
+2025-03-11 08:13:10.866 +05:00 [INF] Executing ViewResult, running view Success.
+2025-03-11 08:13:10.891 +05:00 [INF] Executed ViewResult - view Success executed in 26.4989ms.
+2025-03-11 08:13:10.897 +05:00 [INF] Executed action Academics.Controllers.ContactController.Success (Academics) in 33.4349ms
+2025-03-11 08:13:10.908 +05:00 [INF] Executed endpoint 'Academics.Controllers.ContactController.Success (Academics)'
+2025-03-11 08:13:10.912 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/Contact/Success - 200 null text/html; charset=utf-8 91.9339ms
+2025-03-11 08:13:11.015 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-11 08:13:11.028 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-11 08:13:11.045 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 17.0601ms
+2025-03-11 08:13:11.060 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.699ms
+2025-03-11 08:13:23.060 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/Account/Login - null null
+2025-03-11 08:13:23.086 +05:00 [INF] Executing endpoint 'Academics.Controllers.AccountController.Login (Academics)'
+2025-03-11 08:13:23.099 +05:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Academics.Controllers.AccountController (Academics).
+2025-03-11 08:13:23.526 +05:00 [INF] Login page visited
+2025-03-11 08:13:23.534 +05:00 [INF] Executing ViewResult, running view Login.
+2025-03-11 08:13:23.593 +05:00 [INF] Executed ViewResult - view Login executed in 61.0619ms.
+2025-03-11 08:13:23.599 +05:00 [INF] Executed action Academics.Controllers.AccountController.Login (Academics) in 489.7292ms
+2025-03-11 08:13:23.607 +05:00 [INF] Executed endpoint 'Academics.Controllers.AccountController.Login (Academics)'
+2025-03-11 08:13:23.616 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/Account/Login - 200 null text/html; charset=utf-8 556.1972ms
+2025-03-11 08:13:23.631 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-11 08:13:23.631 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-11 08:13:23.646 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 15.4806ms
+2025-03-11 08:13:23.674 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.8155ms
+2025-03-11 08:13:24.526 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/Courses - null null
+2025-03-11 08:13:24.555 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-03-11 08:13:24.572 +05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-11 08:13:24.578 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/Courses - 302 0 null 52.1229ms
+2025-03-11 08:13:24.589 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/Account/Login?ReturnUrl=%2FCourses - null null
+2025-03-11 08:13:24.614 +05:00 [INF] Executing endpoint 'Academics.Controllers.AccountController.Login (Academics)'
+2025-03-11 08:13:24.620 +05:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Academics.Controllers.AccountController (Academics).
+2025-03-11 08:13:24.650 +05:00 [INF] Login page visited
+2025-03-11 08:13:24.655 +05:00 [INF] Executing ViewResult, running view Login.
+2025-03-11 08:13:24.668 +05:00 [INF] Executed ViewResult - view Login executed in 13.4263ms.
+2025-03-11 08:13:24.676 +05:00 [INF] Executed action Academics.Controllers.AccountController.Login (Academics) in 50.0615ms
+2025-03-11 08:13:24.687 +05:00 [INF] Executed endpoint 'Academics.Controllers.AccountController.Login (Academics)'
+2025-03-11 08:13:24.697 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/Account/Login?ReturnUrl=%2FCourses - 200 null text/html; charset=utf-8 107.8248ms
+2025-03-11 08:13:24.757 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-11 08:13:24.778 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.4094ms
+2025-03-11 08:13:24.806 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-11 08:13:24.818 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 12.3493ms
+2025-03-11 08:13:27.480 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/Account/Login - null null
+2025-03-11 08:13:27.503 +05:00 [INF] Executing endpoint 'Academics.Controllers.AccountController.Login (Academics)'
+2025-03-11 08:13:27.516 +05:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Academics.Controllers.AccountController (Academics).
+2025-03-11 08:13:27.574 +05:00 [INF] Login page visited
+2025-03-11 08:13:27.583 +05:00 [INF] Executing ViewResult, running view Login.
+2025-03-11 08:13:27.600 +05:00 [INF] Executed ViewResult - view Login executed in 17.2996ms.
+2025-03-11 08:13:27.609 +05:00 [INF] Executed action Academics.Controllers.AccountController.Login (Academics) in 76.5154ms
+2025-03-11 08:13:27.617 +05:00 [INF] Executed endpoint 'Academics.Controllers.AccountController.Login (Academics)'
+2025-03-11 08:13:27.626 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/Account/Login - 200 null text/html; charset=utf-8 146.4314ms
+2025-03-11 08:13:27.644 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-11 08:13:27.646 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-11 08:13:27.656 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 11.5546ms
+2025-03-11 08:13:27.694 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.9784ms
+2025-03-11 08:13:35.915 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5080/Account/Login - application/x-www-form-urlencoded 256
+2025-03-11 08:13:35.936 +05:00 [INF] Executing endpoint 'Academics.Controllers.AccountController.Login (Academics)'
+2025-03-11 08:13:35.963 +05:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Academics.Models.Login) on controller Academics.Controllers.AccountController (Academics).
+2025-03-11 08:13:35.983 +05:00 [INF] Attempting to log in user with email: zhumanovahat00@gmail.com
+2025-03-11 08:13:40.641 +05:00 [INF] Executed DbCommand (381ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-11 08:13:40.959 +05:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2025-03-11 08:13:40.973 +05:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-03-11 08:13:40.983 +05:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2025-03-11 08:13:42.024 +05:00 [INF] Executed DbCommand (464ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-11 08:13:42.181 +05:00 [INF] Executed DbCommand (51ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-11 08:13:42.212 +05:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-11 08:13:42.223 +05:00 [INF] User zhumanovahat00@gmail.com logged in successfully
+2025-03-11 08:13:42.241 +05:00 [INF] Executing RedirectResult, redirecting to /.
+2025-03-11 08:13:42.256 +05:00 [INF] Executed action Academics.Controllers.AccountController.Login (Academics) in 6283.4255ms
+2025-03-11 08:13:42.268 +05:00 [INF] Executed endpoint 'Academics.Controllers.AccountController.Login (Academics)'
+2025-03-11 08:13:42.302 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5080/Account/Login - 302 0 null 6387.4762ms
+2025-03-11 08:13:42.331 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/ - null null
+2025-03-11 08:13:42.378 +05:00 [INF] Executing endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-03-11 08:13:42.382 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Academics.Controllers.HomeController (Academics).
+2025-03-11 08:13:42.394 +05:00 [INF] Сourses page visited
+2025-03-11 08:13:42.400 +05:00 [INF] Сourses page visited
+2025-03-11 08:13:42.407 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-11 08:13:42.423 +05:00 [INF] Executed ViewResult - view Index executed in 15.9174ms.
+2025-03-11 08:13:42.431 +05:00 [INF] Executed action Academics.Controllers.HomeController.Index (Academics) in 38.0129ms
+2025-03-11 08:13:42.436 +05:00 [INF] Executed endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-03-11 08:13:42.443 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/ - 200 null text/html; charset=utf-8 111.8792ms
+2025-03-11 08:13:42.506 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-11 08:13:42.510 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-11 08:13:42.541 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.2306ms
+2025-03-11 08:13:42.543 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 33.5887ms
+2025-03-11 08:13:44.433 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/Courses - null null
+2025-03-11 08:13:44.464 +05:00 [INF] Executing endpoint 'Academics.Controllers.CoursesController.Index (Academics)'
+2025-03-11 08:13:44.476 +05:00 [INF] Route matched with {action = "Index", controller = "Courses"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Academics.Controllers.CoursesController (Academics).
+2025-03-11 08:13:44.498 +05:00 [INF] Сourses page visited
+2025-03-11 08:13:44.504 +05:00 [INF] Loaded 6 courses
+2025-03-11 08:13:44.516 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-11 08:13:44.541 +05:00 [INF] Executed ViewResult - view Index executed in 27.1499ms.
+2025-03-11 08:13:44.549 +05:00 [INF] Executed action Academics.Controllers.CoursesController.Index (Academics) in 56.8921ms
+2025-03-11 08:13:44.553 +05:00 [INF] Executed endpoint 'Academics.Controllers.CoursesController.Index (Academics)'
+2025-03-11 08:13:44.561 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/Courses - 200 null text/html; charset=utf-8 128.0525ms
+2025-03-11 08:13:44.577 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/images/course_1.jpg - null null
+2025-03-11 08:13:44.578 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/images/course_2.jpg - null null
+2025-03-11 08:13:44.597 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-03-11 08:13:44.581 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/images/course_3.jpg - null null
+2025-03-11 08:13:44.582 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-11 08:13:44.586 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/images/course_6.jpg - null null
+2025-03-11 08:13:44.669 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 86.3743ms
+2025-03-11 08:13:44.645 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.2338ms
+2025-03-11 08:13:44.727 +05:00 [INF] Sending file. Request path: '/images/course_2.jpg'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\images\course_2.jpg'
+2025-03-11 08:13:44.727 +05:00 [INF] Sending file. Request path: '/images/course_1.jpg'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\images\course_1.jpg'
+2025-03-11 08:13:44.727 +05:00 [INF] Sending file. Request path: '/images/course_3.jpg'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\images\course_3.jpg'
+2025-03-11 08:13:44.738 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/images/course_2.jpg - 200 54783 image/jpeg 159.7991ms
+2025-03-11 08:13:44.742 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/images/course_1.jpg - 200 46027 image/jpeg 165.1508ms
+2025-03-11 08:13:44.748 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/images/course_3.jpg - 200 61270 image/jpeg 166.6749ms
+2025-03-11 08:13:44.727 +05:00 [INF] Sending file. Request path: '/images/course_6.jpg'. Physical path: 'C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\wwwroot\images\course_6.jpg'
+2025-03-11 08:13:44.772 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/images/course_6.jpg - 200 39016 image/jpeg 185.9928ms

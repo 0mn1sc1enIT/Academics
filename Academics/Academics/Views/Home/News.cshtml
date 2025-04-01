@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "News";
+    ViewData["Description"] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+    ViewData["Keywords"] = "lorem, ipsum, dolor, sit, amet";
+
+    ViewData["FirstPage"] = "News";
+    ViewData["FirstPageAction"] = "News";
+    ViewData["FirstPageController"] = "Home";
+    ViewData["PageDescription"] = "June 6, 2019 by Admin";
+}
+
+<div class="site-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-9 mb-4">
+                <p class="mb-5">
+                    <img src="~/images/course_5.jpg" alt="Image" class="img-fluid">
+                </p>
+                <p>@localizer["news_info1"]</p>
+                <p>@localizer["news_info2"]</p>
+                <p>@localizer["news_info3"]</p>
+                <p>@localizer["news_info4"]</p>
+                <p>@localizer["news_info5"]</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@Html.Partial("Feature")

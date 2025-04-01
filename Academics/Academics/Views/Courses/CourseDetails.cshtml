@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = localizer["detail"];
+    ViewData["Description"] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+    ViewData["Keywords"] = "lorem, ipsum, dolor, sit, amet";
+
+    ViewData["FirstPage"] = localizer["courses"].Value;
+    ViewData["FirstPageAction"] = "Index";
+    ViewData["FirstPageController"] = "Courses";
+
+    ViewData["SecondPage"] = localizer["detail"].Value;
+    ViewData["SecondPageAction"] = "CourseDetails";
+    ViewData["SecondPageController"] = "Courses";
+    ViewData["PageDescription"] = localizer["description"].Value;
+}
+<div class="site-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <p>
+                    <img src="@Url.Content("~/images/course_5.jpg")" alt="Image" class="img-fluid">
+                </p>
+            </div>
+            <div class="col-lg-5 ml-auto align-self-center">
+                <h2 class="section-title-underline mb-5">
+                    <span>@localizer["detail"]</span>
+                </h2>
+
+                <p><strong class="text-black d-block">@localizer["teacher"]:</strong> @localizer["name"]</p>
+                <p class="mb-5"><strong class="text-black d-block">@localizer["hours"]:</strong> @localizer["hours_info"]</p>
+                <p>@localizer["course_info1"]</p>
+                <p>@localizer["course_info2"]</p>
+
+                <ul class="ul-check primary list-unstyled mb-5">
+                    <li>@localizer["course_info3"]</li>
+                    <li>@localizer["course_info4"]</li>
+                    <li>@localizer["course_info5"]</li>
+                    <li>@localizer["course_info6"]</li>
+                    <li>@localizer["course_info7"]</li>
+                </ul>
+
+                <p>
+                    <a href="#" class="btn btn-primary rounded-0 btn-lg px-5">@localizer["enroll"]</a>
+                </p>
+
+            </div>
+        </div>
+    </div>
+</div>

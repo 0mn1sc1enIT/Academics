@@ -1,0 +1,48 @@
+﻿@model List<Course>
+@{
+    ViewData["Title"] = localizer["courses"].Value;
+    ViewData["Description"] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+    ViewData["Keywords"] = "lorem, ipsum, dolor, sit, amet";
+
+    ViewData["FirstPage"] = localizer["courses"].Value;
+    ViewData["FirstPageAction"] = "Index";
+    ViewData["FirstPageController"] = "Courses";
+    ViewData["PageDescription"] = localizer["description"].Value;
+}
+
+<div class="site-section">
+    <div class="container">
+        <div class="row">
+            @foreach (var course in Model)
+            {
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="course-1-item">
+                        <figure class="thumnail">
+                            <a href="@course.CourseUrl">
+                                <img src="@course.ImageUrl" alt="Image" class="img-fluid">
+                            </a>
+                            <div class="price">$@course.Price.ToString("0.00")</div>
+                            <div class="category"><h3>@course.Category</h3></div>
+                        </figure>
+                        <div class="course-1-content pb-4">
+                            <h2>@course.Title</h2>
+                            <div class="rating text-center mb-3">
+                                @for (int i = 0; i < course.Stars; i++)
+                                {
+                                    <span class="icon-star2 text-warning"></span>
+                                }
+                            </div>
+                            
+                            <p class="desc mb-4">@course.Description</p>
+                            <p>
+                                <a href="@course.CourseUrl" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@Html.Partial("Feature")

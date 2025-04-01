@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = localizer["success"].Value;
+    ViewData["Description"] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+    ViewData["Keywords"] = "lorem, ipsum, dolor, sit, amet";
+
+    ViewData["FirstPage"] = localizer["success"].Value;
+    ViewData["FirstPageAction"] = "Success";
+    ViewData["FirstPageController"] = "Contact";
+    ViewData["PageDescription"] = localizer["description"].Value;
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h2>@localizer["thanks"]!</h2>
+            <p>@localizer["send"]</p>
+            <a href="@Url.Action("Index", "Contact")" class="btn btn-primary">@localizer["back"]</a>
+        </div>
+    </div>
+</div>

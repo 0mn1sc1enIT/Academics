@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = localizer["admissions"].Value;
+    ViewData["Description"] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+    ViewData["Keywords"] = "lorem, ipsum, dolor, sit, amet";
+
+    ViewData["FirstPage"] = localizer["admissions"].Value;
+    ViewData["FirstPageAction"] = "Index";
+    ViewData["FirstPageController"] = "Admissions";
+    ViewData["PageDescription"] = localizer["description"].Value;
+}
+<div class="site-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-lg-6 mb-lg-0 mb-4">
+                <img src="images/course_6.jpg" alt="Image" class="img-fluid">
+            </div>
+            <div class="col-lg-5 ml-auto align-self-center">
+                <h2 class="section-title-underline mb-5">
+                    <span>@localizer["requirements"]</span>
+                </h2>
+                <p>@localizer["requirements_info1"]</p>
+                <p>@localizer["requirements_info2"]</p>
+
+                <ol class="ul-check primary list-unstyled">
+                    <li>@localizer["list11"]</li>
+                    <li>@localizer["list12"]</li>
+                    <li>@localizer["list13"]</li>
+                    <li>@localizer["list14"]</li>
+                    <li>2×2 @localizer["picture"]</li>
+                    <li>1×1 @localizer["picture"]</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
+                <img src="images/course_3.jpg" alt="Image" class="img-fluid">
+            </div>
+            <div class="col-lg-5 mr-auto align-self-center order-2 order-lg-1">
+                <h2 class="section-title-underline mb-5">
+                    <span>@localizer["transferees"]</span>
+                </h2>
+                <p>@localizer["requirements_info1"]</p>
+                <p>@localizer["requirements_info2"]</p>
+                <ol class="ul-check primary list-unstyled">
+                    <li>@localizer["list11"]</li>
+                    <li>@localizer["list12"]</li>
+                    <li>@localizer["list13"]</li>
+                    <li>@localizer["list14"]</li>
+                    <li>2×2 @localizer["picture"]</li>
+                    <li>1×1 @localizer["picture"]</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+@Html.Partial("Feature")

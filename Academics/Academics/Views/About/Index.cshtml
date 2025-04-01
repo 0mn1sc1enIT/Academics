@@ -1,0 +1,88 @@
+﻿@model List<Teacher>
+@{
+    ViewData["Title"] = localizer["about"].Value;
+    ViewData["Description"] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+    ViewData["Keywords"] = "lorem, ipsum, dolor, sit, amet";
+
+    ViewData["FirstPage"] = localizer["about"].Value;
+    ViewData["FirstPageAction"] = "Index";
+    ViewData["FirstPageController"] = "About";
+    ViewData["PageDescription"] = localizer["description"].Value;
+}
+
+<div class="container pt-5 mb-5">
+    <div class="row">
+        <div class="col-lg-4">
+            <h2 class="section-title-underline">
+                <span>@localizer["history"]</span>
+            </h2>
+        </div>
+        <div class="col-lg-4">
+            <p>@localizer["history_info1"]</p>
+        </div>
+        <div class="col-lg-4">
+            <p>@localizer["history_info2"]</p>
+        </div>
+    </div>
+</div>
+
+<div class="site-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-lg-6 mb-lg-0 mb-4">
+                <img src="images/course_4.jpg" alt="Image" class="img-fluid">
+            </div>
+            <div class="col-lg-5 ml-auto align-self-center">
+                <h2 class="section-title-underline mb-5">
+                    <span>@localizer["works"]</span>
+                </h2>
+                <p>@localizer["info1"]</p>
+                <p>@localizer["info2"]</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
+                <img src="images/course_5.jpg" alt="Image" class="img-fluid">
+            </div>
+            <div class="col-lg-5 mr-auto align-self-center order-2 order-lg-1">
+                <h2 class="section-title-underline mb-5">
+                    <span>@localizer["learning"]</span>
+                </h2>
+                <p>@localizer["info1"]</p>
+                <p>@localizer["info2"]</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@Html.Partial("Feature")
+
+<div class="site-section">
+    <div class="container">
+        <div class="row mb-5 justify-content-center text-center">
+            <div class="col-lg-4 mb-5">
+                <h2 class="section-title-underline mb-5">
+                    <span>@localizer["teachers"]</span>
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var teacher in Model)
+            {
+                <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
+                    <div class="feature-1 border person text-center">
+                        <img src="@teacher.ImageUrl" alt="Image" class="img-fluid">
+                        <div class="feature-1-content">
+                            <h2>@teacher.Name</h2>
+                            <span class="position mb-3 d-block">@teacher.Position</span>
+                            <p>@teacher.Description</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@Html.Partial("NewsLetter")
