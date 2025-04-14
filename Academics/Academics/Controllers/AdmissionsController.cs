@@ -9,7 +9,9 @@ namespace Academics.Controllers
         {
             _logger = logger;
         }
-        public IActionResult Index()
+
+        [Route("Admissions")]
+		public IActionResult Index()
         {
             _logger.LogInformation("Admissions page visited");
             return View();

@@ -15,14 +15,16 @@ namespace Academics.Controllers
             _logger = logger;
             _localizer = localizer;
         }
-        public IActionResult Index()
+
+        [Route("")]
+		public IActionResult Index()
         {
             _logger.LogInformation("Сourses page visited");
 
             var slides = new List<MainSlide>
             {
-                new MainSlide("images/hero_1.jpg", _localizer["academics_university"]),
-                new MainSlide("images/hero_1.jpg", _localizer["learn"])
+                new MainSlide("/images/hero_1.jpg", _localizer["academics_university"]),
+                new MainSlide("/images/hero_1.jpg", _localizer["learn"])
             };
 
             _logger.LogInformation("Сourses page visited");
@@ -30,7 +32,8 @@ namespace Academics.Controllers
             return View(slides);
         }
 
-        public IActionResult News() 
+		[Route("News")]
+		public IActionResult News() 
         {
             _logger.LogInformation("News page visited");
             return View();

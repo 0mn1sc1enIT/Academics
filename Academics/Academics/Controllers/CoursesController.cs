@@ -5,7 +5,8 @@ using Microsoft.Extensions.Localization;
 
 namespace Academics.Controllers
 {
-    public class CoursesController : Controller
+	[Route("Courses")]
+	public class CoursesController : Controller
     {
         private readonly ILogger<CoursesController> _logger;
         private readonly IStringLocalizer<CoursesController> _localizer;
@@ -14,8 +15,11 @@ namespace Academics.Controllers
             _logger = logger;
             _localizer = localizer;
         }
-        [Authorize]
-        public IActionResult Index()
+
+        
+		[Authorize]
+		[Route("")]
+		public IActionResult Index()
         {
             _logger.LogInformation("Сourses page visited");
             var courses = new List<Course>
@@ -72,8 +76,10 @@ namespace Academics.Controllers
             _logger.LogInformation("Loaded {courses} courses", courses.Count);
             return View(courses);
         }
-        [Authorize]
-        public IActionResult CourseDetails()
+		
+		[Authorize]
+		[Route("Details")]
+		public IActionResult CourseDetails()
         {
             _logger.LogInformation("Сourse details page visited");
             return View();

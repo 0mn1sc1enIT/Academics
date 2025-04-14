@@ -13,7 +13,8 @@ namespace Academics.Controllers
             _logger = logger;
             _message = message;
         }
-        public IActionResult Index()
+		[Route("Contact")]
+		public IActionResult Index()
         {
             Message message = new Message
             {
@@ -63,6 +64,8 @@ namespace Academics.Controllers
             // Если данные невалидны или произошла ошибка, возвращаем форму с ошибками
             return View(userMessage);
         }
+
+        [Route("Contact/Success")]
         public IActionResult Success()
         {
             return View();

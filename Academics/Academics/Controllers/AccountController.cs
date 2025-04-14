@@ -21,8 +21,8 @@ namespace Academics.Controllers
             _logger = logger;
         }
 
-        [AllowAnonymous]
-        public IActionResult Login()
+		[AllowAnonymous]
+		public IActionResult Login()
         {
             _logger.LogInformation("Login page visited");
             return View(new Login {});
@@ -30,7 +30,7 @@ namespace Academics.Controllers
 
         [HttpPost]
         [AllowAnonymous]
-        public async Task<IActionResult> Login(Login login)
+		public async Task<IActionResult> Login(Login login)
         {
             if (!ModelState.IsValid)
             {
@@ -59,8 +59,8 @@ namespace Academics.Controllers
             return View(login);
         }
 
-        [AllowAnonymous]
-        public IActionResult Register()
+		[AllowAnonymous]
+		public IActionResult Register()
         {
             _logger.LogInformation("Register page visited");
             return View();
@@ -93,7 +93,8 @@ namespace Academics.Controllers
 
             return View(model);
         }
-        public async Task<IActionResult> Logout()
+
+		public async Task<IActionResult> Logout()
         {
             var user = await _userManager.GetUserAsync(User);
             if (user != null)

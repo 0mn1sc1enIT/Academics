@@ -265,3 +265,8 @@ C:\Users\acer\Desktop\Уник\6 семестр\Разработка web ком�
 C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\obj\Debug\net8.0\Academics.Resourses.Controllers.HomeController.ru-RU.resources
 C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\obj\Debug\net8.0\Academics.Resourses.Controllers.AboutController.resources
 C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\obj\Debug\net8.0\Academics.Resourses.Controllers.CoursesController.resources
+C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\obj\Debug\net8.0\Academics.sourcelink.json
+C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\bin\Debug\net8.0\Academics.staticwebassets.endpoints.json
+C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\obj\Debug\net8.0\staticwebassets\msbuild.Academics.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

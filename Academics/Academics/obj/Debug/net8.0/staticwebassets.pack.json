@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Academics.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Academics.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Academics.hbqoyzvf0b.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\css\\aos.css",
@@ -875,6 +875,10 @@
     {
       "Id": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\scss\\style.scss",
       "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Academics.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Academics.Microsoft.AspNetCore.StaticWebAssets.props",

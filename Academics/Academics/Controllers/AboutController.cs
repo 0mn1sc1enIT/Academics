@@ -13,7 +13,9 @@ namespace Academics.Controllers
             _logger = logger;
             _localizer = localizer;
         }
-        public IActionResult Index()
+
+        [Route("AboutUs")]
+		public IActionResult Index()
         {
             _logger.LogInformation("About page visited");
             var teachers = new List<Teacher>
