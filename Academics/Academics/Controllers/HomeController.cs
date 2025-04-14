@@ -1,4 +1,6 @@
+using Academics.AppFilters;
 using Academics.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
@@ -19,7 +21,9 @@ namespace Academics.Controllers
         [Route("")]
 		public IActionResult Index()
         {
-            _logger.LogInformation("Сourses page visited");
+			string userAgent = HttpContext.Request.Headers["User-Agent"].ToString();
+			_logger.LogInformation("User-Agent: {UserAgent}", userAgent);
+			_logger.LogInformation("Сourses page visited");
 
             var slides = new List<MainSlide>
             {
@@ -32,6 +36,7 @@ namespace Academics.Controllers
             return View(slides);
         }
 
+        [LegacyBrowserFilter]
 		[Route("News")]
 		public IActionResult News() 
         {
@@ -51,5 +56,11 @@ namespace Academics.Controllers
                 });
             return Json(culture);
         }
-    }
+
+		public IActionResult Error(string message)
+		{
+			return View("Error", message);
+		}
+
+	}
 }

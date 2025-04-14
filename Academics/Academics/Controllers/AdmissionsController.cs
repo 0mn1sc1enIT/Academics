@@ -13,7 +13,9 @@ namespace Academics.Controllers
         [Route("Admissions")]
 		public IActionResult Index()
         {
-            _logger.LogInformation("Admissions page visited");
+
+			throw new Exception("Test exception");
+			_logger.LogInformation("Admissions page visited");
             return View();
         }
     }

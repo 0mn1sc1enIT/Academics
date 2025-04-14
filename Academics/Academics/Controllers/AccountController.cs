@@ -1,4 +1,5 @@
-﻿using Academics.Models;
+﻿using Academics.AppFilters;
+using Academics.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -61,16 +62,18 @@ namespace Academics.Controllers
 
 		[AllowAnonymous]
 		public IActionResult Register()
-        {
-            _logger.LogInformation("Register page visited");
-            return View();
-        }
+		{
+            throw new Exception("Test exception");
+			_logger.LogInformation("Register page visited with User-Agent: {UserAgent}", HttpContext.Request.Headers.UserAgent);
+			return View();
+		}
 
-        [HttpPost]
+
+		[HttpPost]
         [AllowAnonymous]
         public async Task<IActionResult> Register(Register model)
         {
-            if (!ModelState.IsValid) {
+			if (!ModelState.IsValid) {
                 _logger.LogWarning("Invalid register model state");
                 return View(model);
             }

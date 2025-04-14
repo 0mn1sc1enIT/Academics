@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics.Admin\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Academics.Admin.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Academics.Admin.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Academics.Admin.59mwdise8o.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics.Admin\\wwwroot\\css\\site.css",
@@ -243,6 +243,10 @@
     {
       "Id": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics.Admin\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Academics.Admin.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Academics.Admin.Microsoft.AspNetCore.StaticWebAssets.props",

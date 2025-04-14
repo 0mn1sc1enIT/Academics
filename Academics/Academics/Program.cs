@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Globalization;
 using Microsoft.AspNetCore.Localization;
 using Academics.AppMiddlewares;
+using Academics.AppFilters;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,7 +13,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddLocalization(options => options.ResourcesPath = "Resourses");
 
 builder.Services
-    .AddControllersWithViews()
+    .AddControllersWithViews(options =>
+    {
+        options.Filters.Add<CatchError>();
+    })
     .AddViewLocalization()
     .AddDataAnnotationsLocalization(); 
 
