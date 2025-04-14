@@ -40,9 +40,10 @@
     </div>
     <div class="site-wrap">
         <!-- Header Area Start -->
-        @Html.Partial("MobileMenu")
+
         @Html.Partial("TopBar")
         @Html.Partial("Header")
+        @Html.Partial("MobileMenu")
         <!-- Header Area End -->
         
         <!-- Breadcrumbs Start-->
@@ -148,7 +149,7 @@
     <script src="~/js/jquery.fancybox.min.js"></script>
     <script src="~/js/jquery.sticky.js"></script>
     <script src="~/js/jquery.mb.YTPlayer.min.js"></script>
-
+    <script src="~/js/main.js"></script>
     @RenderSection("Scripts", false)
 
     <script>
@@ -171,8 +172,6 @@
 
         })
     </script>
-
-    <script src="~/js/main.js"></script>
     <!-- Scripts End -->
 </body>
 </html>

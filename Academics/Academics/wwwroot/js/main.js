@@ -296,21 +296,40 @@ jQuery(document).ready(function($) {
 	siteSticky();
 
 	// navigation
-  var OnePageNavigation = function() {
-    var navToggler = $('.site-menu-toggle');
-   	$("body").on("click", ".main-menu li a[href^='#'], .smoothscroll[href^='#'], .site-mobile-menu .site-nav-wrap li a", function(e) {
-      e.preventDefault();
+	var OnePageNavigation = function () {
+		var navToggler = $('.site-menu-toggle');
 
-      var hash = this.hash;
+		// Изменить селектор, чтобы он обрабатывал только ссылки с хешем (#)
+		$("body").on("click", ".main-menu li a[href^='#'], .smoothscroll[href^='#']", function (e) {
+			e.preventDefault();
+			var hash = this.hash;
 
-      $('html, body').animate({
-        'scrollTop': $(hash).offset().top
-      }, 600, 'easeInOutCirc', function(){
-        window.location.hash = hash;
-      });
+			$('html, body').animate({
+				'scrollTop': $(hash).offset().top
+			}, 600, 'easeInOutCirc', function () {
+				window.location.hash = hash;
+			});
+		});
 
-    });
-  };
+		// Добавьте отдельную обработку для мобильного меню
+		$("body").on("click", ".site-mobile-menu .site-nav-wrap li a", function (e) {
+			// Проверяем, начинается ли href с #
+			if (this.getAttribute('href').charAt(0) === '#') {
+				e.preventDefault();
+				var hash = this.hash;
+
+				$('html, body').animate({
+					'scrollTop': $(hash).offset().top
+				}, 600, 'easeInOutCirc', function () {
+					window.location.hash = hash;
+				});
+
+				// Закрыть мобильное меню после клика
+				$('body').removeClass('offcanvas-menu');
+			}
+			// Если это обычная ссылка (не якорь), позволить браузеру обработать клик
+		});
+	};
   OnePageNavigation();
 
   var siteScroll = function() {

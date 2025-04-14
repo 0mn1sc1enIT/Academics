@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Globalization;
 using Microsoft.AspNetCore.Localization;
+using Academics.AppMiddlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -69,6 +70,9 @@ Log.Logger = new LoggerConfiguration()
 builder.Host.UseSerilog();
 
 var app = builder.Build();
+
+app.UseMiddleware<TimeElaspedMiddleware>();
+app.UseRequestLogging();
 
 var supportedCultures = new[] { "kk-KZ", "ru-RU", "en-US" };
 var localizationOptions = new RequestLocalizationOptions()
