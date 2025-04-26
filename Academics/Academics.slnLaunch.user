@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Новый профиль",
+    "Projects": [
+      {
+        "Path": "Academics\\Academics.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Academics.Admin\\Academics.Admin.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

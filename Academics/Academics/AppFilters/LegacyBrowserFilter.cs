@@ -13,7 +13,7 @@ namespace Academics.AppFilters
 		public void OnResourceExecuting(ResourceExecutingContext context)
 		{
 			string userAgent = context.HttpContext.Request.Headers["user-agent"].ToString();
-			if (userAgent.Contains("Mozilla"))
+			if (userAgent.Contains("Edg"))
 			{
 				context.Result = new ContentResult
 				{

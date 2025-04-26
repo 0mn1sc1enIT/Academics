@@ -5,7 +5,7 @@ using Microsoft.Extensions.Localization;
 
 namespace Academics.Controllers
 {
-	[Route("Courses")]
+	
 	public class CoursesController : Controller
     {
         private readonly ILogger<CoursesController> _logger;
@@ -18,7 +18,6 @@ namespace Academics.Controllers
 
         
 		[Authorize]
-		[Route("")]
 		public IActionResult Index()
         {
             _logger.LogInformation("Сourses page visited");
@@ -78,7 +77,6 @@ namespace Academics.Controllers
         }
 		
 		[Authorize]
-		[Route("Details")]
 		public IActionResult CourseDetails()
         {
             _logger.LogInformation("Сourse details page visited");

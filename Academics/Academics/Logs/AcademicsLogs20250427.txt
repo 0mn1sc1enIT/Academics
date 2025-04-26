@@ -1,0 +1,84 @@
+2025-04-27 00:16:09.088 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/Courses - null null
+2025-04-27 00:16:09.101 +05:00 [WRN] Регистрация запроса от пользователя , по пути /Courses метода GET
+2025-04-27 00:16:09.554 +05:00 [INF] Executed DbCommand (156ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-04-27 00:16:09.595 +05:00 [INF] Executed DbCommand (23ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-04-27 00:16:09.646 +05:00 [INF] Executed DbCommand (48ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-04-27 00:16:09.650 +05:00 [INF] Executing endpoint 'Academics.Controllers.CoursesController.Index (Academics)'
+2025-04-27 00:16:09.651 +05:00 [INF] Route matched with {action = "Index", controller = "Courses"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Academics.Controllers.CoursesController (Academics).
+2025-04-27 00:16:09.652 +05:00 [INF] Сourses page visited
+2025-04-27 00:16:09.653 +05:00 [INF] Loaded 6 courses
+2025-04-27 00:16:09.654 +05:00 [INF] Executing ViewResult, running view Index.
+2025-04-27 00:16:09.657 +05:00 [INF] Executed ViewResult - view Index executed in 3.8722ms.
+2025-04-27 00:16:09.658 +05:00 [INF] Executed action Academics.Controllers.CoursesController.Index (Academics) in 5.828ms
+2025-04-27 00:16:09.658 +05:00 [INF] Executed endpoint 'Academics.Controllers.CoursesController.Index (Academics)'
+2025-04-27 00:16:09.659 +05:00 [WRN] Регистрация запроса от пользователя zhumanovahat00@gmail.com, по пути /Courses метода GET, отработала за 558.4973
+2025-04-27 00:16:09.660 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/Courses - 200 null text/html; charset=utf-8 572.6484ms
+2025-04-27 00:16:09.773 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 00:16:09.781 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 7.4733ms
+2025-04-27 00:55:44.352 +05:00 [INF] User profile is available. Using 'C:\Users\acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-27 00:55:44.545 +05:00 [INF] Now listening on: http://localhost:5080
+2025-04-27 00:55:44.600 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 00:55:44.606 +05:00 [INF] Hosting environment: Development
+2025-04-27 00:55:44.607 +05:00 [INF] Content root path: C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics
+2025-04-27 00:55:44.970 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/ - null null
+2025-04-27 00:55:45.014 +05:00 [WRN] Регистрация запроса от пользователя , по пути / метода GET
+2025-04-27 00:55:46.020 +05:00 [INF] Executed DbCommand (61ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-04-27 00:55:46.153 +05:00 [INF] Executed DbCommand (26ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-04-27 00:55:46.193 +05:00 [INF] Executed DbCommand (23ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-04-27 00:55:46.200 +05:00 [INF] Executing endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-04-27 00:55:46.212 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Academics.Controllers.HomeController (Academics).
+2025-04-27 00:55:46.216 +05:00 [INF] User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+2025-04-27 00:55:46.217 +05:00 [INF] Сourses page visited
+2025-04-27 00:55:46.223 +05:00 [INF] Сourses page visited
+2025-04-27 00:55:46.231 +05:00 [INF] Executing ViewResult, running view Index.
+2025-04-27 00:55:46.335 +05:00 [INF] Executed ViewResult - view Index executed in 104.7946ms.
+2025-04-27 00:55:46.338 +05:00 [INF] Executed action Academics.Controllers.HomeController.Index (Academics) in 123.795ms
+2025-04-27 00:55:46.339 +05:00 [INF] Executed endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-04-27 00:55:46.340 +05:00 [WRN] Регистрация запроса от пользователя zhumanovahat00@gmail.com, по пути / метода GET, отработала за 1326.888
+2025-04-27 00:55:46.349 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/ - 200 null text/html; charset=utf-8 1386.8049ms
+2025-04-27 00:55:46.462 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 00:55:46.463 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-04-27 00:55:46.469 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 7.1454ms
+2025-04-27 00:55:46.506 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.8409ms
+2025-04-27 01:00:24.904 +05:00 [INF] User profile is available. Using 'C:\Users\acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-27 01:00:25.099 +05:00 [INF] Now listening on: http://localhost:5080
+2025-04-27 01:00:25.155 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 01:00:25.162 +05:00 [INF] Hosting environment: Development
+2025-04-27 01:00:25.163 +05:00 [INF] Content root path: C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics
+2025-04-27 01:00:25.657 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/ - null null
+2025-04-27 01:00:25.693 +05:00 [WRN] Регистрация запроса от пользователя , по пути / метода GET
+2025-04-27 01:00:25.907 +05:00 [INF] Executing endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-04-27 01:00:25.927 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Academics.Controllers.HomeController (Academics).
+2025-04-27 01:00:25.932 +05:00 [INF] User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+2025-04-27 01:00:25.933 +05:00 [INF] Сourses page visited
+2025-04-27 01:00:25.943 +05:00 [INF] Сourses page visited
+2025-04-27 01:00:25.958 +05:00 [INF] Executing ViewResult, running view Index.
+2025-04-27 01:00:26.139 +05:00 [INF] Executed ViewResult - view Index executed in 188.0626ms.
+2025-04-27 01:00:26.141 +05:00 [INF] Executed action Academics.Controllers.HomeController.Index (Academics) in 211.7221ms
+2025-04-27 01:00:26.142 +05:00 [INF] Executed endpoint 'Academics.Controllers.HomeController.Index (Academics)'
+2025-04-27 01:00:26.143 +05:00 [WRN] Регистрация запроса от пользователя zhumanovahat00@gmail.com, по пути / метода GET, отработала за 451.3534
+2025-04-27 01:00:26.147 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/ - 200 null text/html; charset=utf-8 505.3745ms
+2025-04-27 01:00:26.257 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 01:00:26.258 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
+2025-04-27 01:00:26.262 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 6.0931ms
+2025-04-27 01:00:26.313 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.2796ms

@@ -1,0 +1,73 @@
+﻿@model Teacher
+
+<div class="portlet light bordered">
+	<div class="portlet-title">
+		<div class="caption">
+			<i class="icon-equalizer font-red-sunglo"></i>
+			<span class="caption-subject font-red-sunglo bold uppercase">Add Teacher</span>
+			<span class="caption-helper">form actions without bg color</span>
+		</div>
+		<div class="actions">
+			<div class="portlet-input input-inline input-small">
+				<div class="input-icon right">
+					<i class="icon-magnifier"></i>
+					<input type="text" class="form-control input-circle" placeholder="search...">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portlet-body form">
+		<!-- BEGIN FORM-->
+        <form asp-action="EditTeacher" asp-controller="Home"
+              class="form-horizontal" enctype="multipart/form-data">
+            <!-- Обязательно enctype -->
+
+            <div class="form-body">
+                <!-- FullName -->
+                <div class="form-group">
+                    <label class="col-md-3 control-label">Name</label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" asp-for="FullName" placeholder="Enter Full Name">
+                    </div>
+                </div>
+
+                <!-- Description -->
+                <div class="form-group last">
+                    <label class="col-md-3 control-label">Description</label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" asp-for="Description" placeholder="Enter description">
+                    </div>
+                </div>
+
+				<!-- Position Select -->
+                <div class="form-group">
+                    <label class="col-md-3 control-label">Position</label>
+                    <div class="col-md-4">
+                        <select class="form-control" asp-for="PositionId" asp-items="new SelectList(ViewBag.Positions, nameof(Position.Id), nameof(Position.Name))">
+                            <option value="">Select Position</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Upload Photo -->
+                <div class="form-group">
+                    <label class="col-md-3 control-label">Photo</label>
+                    <div class="col-md-4">
+                        <input type="file" class="form-control" name="PhotoFile">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-9">
+                        <button type="submit" class="btn green">Submit</button>
+                        <a href="@Url.Action("Teacher", "Home")" class="btn default">Cancel</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+		<!-- END FORM-->
+	</div>
+</div>

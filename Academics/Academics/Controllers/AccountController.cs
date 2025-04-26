@@ -63,9 +63,9 @@ namespace Academics.Controllers
 		[AllowAnonymous]
 		public IActionResult Register()
 		{
-            throw new Exception("Test exception");
+            /*throw new Exception("Test exception");*/
 			_logger.LogInformation("Register page visited with User-Agent: {UserAgent}", HttpContext.Request.Headers.UserAgent);
-			return View();
+			return View(new Register());
 		}
 
 

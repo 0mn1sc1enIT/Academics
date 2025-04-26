@@ -1,0 +1,96 @@
+﻿@model Course
+
+<div class="portlet light bordered">
+	<div class="portlet-title">
+		<div class="caption">
+			<i class="icon-equalizer font-red-sunglo"></i>
+			<span class="caption-subject font-red-sunglo bold uppercase">Add Course</span>
+			<span class="caption-helper">form actions without bg color</span>
+		</div>
+		<div class="actions">
+			<div class="portlet-input input-inline input-small">
+				<div class="input-icon right">
+					<i class="icon-magnifier"></i>
+					<input type="text" class="form-control input-circle" placeholder="search...">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portlet-body form">
+		<!-- BEGIN FORM-->
+		<form asp-action="EditCourse" asp-controller="Home" class="form-horizontal">
+			<div class="form-body">
+
+				<div class="form-group">
+					<label class="col-md-3 control-label">Teacher</label>
+					<div class="col-md-4">
+						<select class="form-control" asp-for="TeacherId" asp-items="ViewBag.Teachers">
+							<option value="">Select Teacher</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label class="col-md-3 control-label">Course Title</label>
+					<div class="col-md-4">
+						<input type="text" class="form-control" placeholder="Enter course title" asp-for="CourseTitle">
+						<span class="help-block">
+							Enter the title of the course.
+						</span>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label class="col-md-3 control-label">Hours</label>
+					<div class="col-md-4">
+						<input type="text" class="form-control" placeholder="Enter hours" asp-for="Hours">
+						<span class="help-block">
+							Enter number of hours.
+						</span>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label class="col-md-3 control-label">Description</label>
+					<div class="col-md-4">
+						<input type="text" class="form-control" placeholder="Enter description" asp-for="Description">
+						<span class="help-block">
+							Enter course description.
+						</span>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label class="col-md-3 control-label">Price</label>
+					<div class="col-md-4">
+						<input type="number" step="0.01" class="form-control" placeholder="Enter price" asp-for="Price">
+						<span class="help-block">
+							Enter course price.
+						</span>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label class="col-md-3 control-label">Stars</label>
+					<div class="col-md-4">
+						<input type="number" min="0" max="5" class="form-control" placeholder="Enter stars" asp-for="Stars">
+						<span class="help-block">
+							Enter rating from 0 to 5 stars.
+						</span>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="form-actions">
+				<div class="row">
+					<div class="col-md-offset-3 col-md-9">
+						<button type="submit" class="btn green">Submit</button>
+						<a href="@Url.Action("Course", "Home")" class="btn default">Cancel</a>
+					</div>
+				</div>
+			</div>
+		</form>
+		<!-- END FORM-->
+	</div>
+</div>

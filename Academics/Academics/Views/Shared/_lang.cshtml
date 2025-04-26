@@ -9,6 +9,8 @@
         .Select(c => new SelectListItem { Value = c.Name, Text = c.DisplayName })
         .ToList();
 }
+
+
 <span class="text-theme">Lang:</span>
 <span>
     <form id="cultureForm" asp-controller="Home" asp-action="ChangeLanguage" method="post">
