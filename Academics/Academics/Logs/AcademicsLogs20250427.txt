@@ -82,3 +82,30 @@ WHERE [a].[UserId] = @__userId_0
 2025-04-27 01:00:26.258 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5080/_vs/browserLink - null null
 2025-04-27 01:00:26.262 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 6.0931ms
 2025-04-27 01:00:26.313 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.2796ms
+2025-04-27 15:40:48.073 +05:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-04-27 15:40:48.136 +05:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-04-27 15:40:48.155 +05:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-04-27 15:40:48.175 +05:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-04-27 15:40:48.211 +05:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-04-27 15:40:48.222 +05:00 [INF] Applying migration '20250427103934_addedDbLocalizationModels'.
+2025-04-27 15:40:48.310 +05:00 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [LocalizedStrings] (
+    [Id] int NOT NULL IDENTITY,
+    [Culture] nvarchar(10) NOT NULL,
+    [ResourceSet] nvarchar(255) NOT NULL,
+    [Key] nvarchar(255) NOT NULL,
+    [Value] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_LocalizedStrings] PRIMARY KEY ([Id])
+);
+2025-04-27 15:40:48.329 +05:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_LocalizedStrings_Culture_ResourceSet_Key] ON [LocalizedStrings] ([Culture], [ResourceSet], [Key]);
+2025-04-27 15:40:48.348 +05:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250427103934_addedDbLocalizationModels', N'8.0.0');

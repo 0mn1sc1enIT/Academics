@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academics", "Academics\Acad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academics.Admin", "Academics.Admin\Academics.Admin.csproj", "{8D7CCD7E-5825-4F58-B325-63A75D469534}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academics.WebAPI", "Academics.WebAPI\Academics.WebAPI.csproj", "{EAA3ED2C-403F-49AD-8F3C-ADA51A4B2A96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8D7CCD7E-5825-4F58-B325-63A75D469534}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D7CCD7E-5825-4F58-B325-63A75D469534}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D7CCD7E-5825-4F58-B325-63A75D469534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA3ED2C-403F-49AD-8F3C-ADA51A4B2A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA3ED2C-403F-49AD-8F3C-ADA51A4B2A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA3ED2C-403F-49AD-8F3C-ADA51A4B2A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA3ED2C-403F-49AD-8F3C-ADA51A4B2A96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
