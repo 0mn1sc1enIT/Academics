@@ -30,6 +30,10 @@ namespace Academics.WebAPI.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Category")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("CourseTitle")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -40,6 +44,9 @@ namespace Academics.WebAPI.Migrations
                     b.Property<string>("Hours")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<byte[]>("Image")
+                        .HasColumnType("varbinary(max)");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18, 2)");
@@ -54,7 +61,7 @@ namespace Academics.WebAPI.Migrations
 
                     b.HasIndex("TeacherId");
 
-                    b.ToTable("Courses");
+                    b.ToTable("Courses", (string)null);
                 });
 
             modelBuilder.Entity("Academics.WebAPI.Models.Position", b =>
@@ -80,7 +87,7 @@ namespace Academics.WebAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Positions");
+                    b.ToTable("Positions", (string)null);
                 });
 
             modelBuilder.Entity("Academics.WebAPI.Models.Teacher", b =>
@@ -114,7 +121,7 @@ namespace Academics.WebAPI.Migrations
 
                     b.HasIndex("PositionId");
 
-                    b.ToTable("Teachers");
+                    b.ToTable("Teachers", (string)null);
                 });
 
             modelBuilder.Entity("Academics.WebAPI.Models.Course", b =>

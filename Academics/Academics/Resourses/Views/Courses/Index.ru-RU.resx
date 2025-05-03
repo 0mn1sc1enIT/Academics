@@ -123,4 +123,7 @@
   <data name="description" xml:space="preserve">
     <value>Благодарим вас за проявленный интерес к нашей компании, основному производителю воздушных судов.</value>
   </data>
+  <data name="enroll" xml:space="preserve">
+    <value>Записаться на курс</value>
+  </data>
 </root>

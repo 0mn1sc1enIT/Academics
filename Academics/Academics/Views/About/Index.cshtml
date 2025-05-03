@@ -1,4 +1,4 @@
-﻿@model List<Teacher>
+﻿@model List<TeacherViewModel>
 @{
     ViewData["Title"] = localizer["about"].Value;
     ViewData["Description"] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
@@ -72,10 +72,10 @@
             {
                 <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
                     <div class="feature-1 border person text-center">
-                        <img src="@teacher.ImageUrl" alt="Image" class="img-fluid">
+                        <img src="@teacher.PhotoBase64" alt="Фото @teacher.FullName" class="img-fluid">
                         <div class="feature-1-content">
-                            <h2>@teacher.Name</h2>
-                            <span class="position mb-3 d-block">@teacher.Position</span>
+                            <h2>@teacher.FullName</h2>
+                            <span class="position mb-3 d-block">@teacher.PositionName</span>
                             <p>@teacher.Description</p>
                         </div>
                     </div>

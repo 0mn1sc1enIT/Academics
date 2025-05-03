@@ -4346,7 +4346,6 @@ wwwroot\assets\global\plugins\zoom\jquery.zoom.js
 wwwroot\assets\global\plugins\zoom\jquery.zoom.min.js
 wwwroot\assets\global\scripts\datatable.js
 wwwroot\assets\global\scripts\metronic.js
-wwwroot\Template.zip
 wwwroot\Template\admin\angularjs\demo\ecommerce_order_credit_memos.php
 wwwroot\Template\admin\angularjs\demo\ecommerce_order_history.php
 wwwroot\Template\admin\angularjs\demo\ecommerce_order_invoices.php

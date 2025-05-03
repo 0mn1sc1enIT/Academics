@@ -18,7 +18,11 @@ builder.Services
         options.Filters.Add<CatchError>();
     })
     .AddViewLocalization()
-    .AddDataAnnotationsLocalization(); 
+    .AddDataAnnotationsLocalization();
+
+// Регистрация зависимостей
+builder.Services.AddTransient<IMessage, EmailSender>();
+builder.Services.AddScoped<TokenService>();
 
 // Подключение к БД
 builder.Services.AddDbContext<AppIdentityDbContext>(options =>
@@ -35,9 +39,6 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
     options.SlidingExpiration = true;
 });
-
-// Регистрация зависимостей
-builder.Services.AddTransient<IMessage, EmailSender>();
 
 // Настройка локализации
 builder.Services.Configure<RequestLocalizationOptions>(options =>

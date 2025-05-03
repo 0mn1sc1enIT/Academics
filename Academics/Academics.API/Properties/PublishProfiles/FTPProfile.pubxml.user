@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA//5+zvI62Umx4LRjubGOOwAAAAACAAAAAAAQZgAAAAEAACAAAACqxUYOsFHmKUtpyGwOS3W8cY88T0ManVgKCt2mgGlDnwAAAAAOgAAAAAIAACAAAAA8r401oHVqAsGLzYhjtiM2Fx2pP3xsybDT/vaA6chMXSAAAAA+E3+vbhu1SiRutxfE1wcFH+/XhX7KAjezD4lkxFNc+0AAAAC963PQHxfcVyBdFSn19S4z2RYcIDjVMJPvb2aAIztyjYnqoFVJt3bCucnb2/F0C9KWg2tH8nH09nRMz4md4qNl</EncryptedPassword>
+    <_PublishTargetUrl>ftp://178.89.186.221</_PublishTargetUrl>
+    <History>True|2025-04-29T04:00:36.2327396Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Academics.API.deps.json">
+      <publishTime>04/29/2025 09:00:19</publishTime>
+    </File>
+    <File Include="Academics.API.dll">
+      <publishTime>04/29/2025 09:00:19</publishTime>
+    </File>
+    <File Include="Academics.API.exe">
+      <publishTime>04/29/2025 09:00:19</publishTime>
+    </File>
+    <File Include="Academics.API.pdb">
+      <publishTime>04/29/2025 09:00:19</publishTime>
+    </File>
+    <File Include="Academics.API.runtimeconfig.json">
+      <publishTime>04/29/2025 09:00:20</publishTime>
+    </File>
+    <File Include="Academics.API.staticwebassets.endpoints.json">
+      <publishTime>04/29/2025 09:00:21</publishTime>
+    </File>
+    <File Include="appsettings.Development.json">
+      <publishTime>04/29/2025 08:57:26</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>04/29/2025 08:57:26</publishTime>
+    </File>
+    <File Include="Microsoft.OpenApi.dll">
+      <publishTime>12/20/2024 21:11:34</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>04/10/2025 17:58:02</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>04/10/2025 17:58:06</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>04/10/2025 17:58:28</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>04/29/2025 09:00:21</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -14,13 +14,15 @@ namespace Academics.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly ILogger<AccountController> _logger;
+		private TokenService _tokenService;
 
-        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, ILogger<AccountController> logger)
+		public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, ILogger<AccountController> logger, TokenService tokenService)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _logger = logger;
-        }
+			_tokenService = tokenService;
+		}
 
 		[AllowAnonymous]
 		public IActionResult Login()
@@ -51,7 +53,9 @@ namespace Academics.Controllers
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User {Email} logged in successfully", login.Email);
-                    return RedirectToAction("Index", "Home");
+					var token = await _tokenService.GenerateAccessToken(user);
+					Response.Cookies.Append("JwtToken", token);
+					return RedirectToAction("Index", "Home");
                 }
             }
 

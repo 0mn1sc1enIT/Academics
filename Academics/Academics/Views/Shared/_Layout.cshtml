@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="~/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="~/css/owl.theme.default.min.css">
 
+    <link rel="stylesheet" href="~/css/site.css">
+
     <link rel="stylesheet" href="~/css/jquery.fancybox.min.css">
 
     <link rel="stylesheet" href="~/css/bootstrap-datepicker.css">
@@ -25,6 +27,8 @@
 
     <link rel="stylesheet" href="~/css/aos.css">
     <link href="~/css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 
     <link rel="stylesheet" href="~/css/style.css">
     
@@ -153,10 +157,41 @@
 
     <script>
         $(document).ready(function () {
+            const selectorBtn = $('#languageSelectorBtn');
+            const optionsList = $('#languageOptionsList');
+            const hiddenSelect = $('#CultureList');
+
+            selectorBtn.on('click', function (e) {
+                e.stopPropagation();
+                optionsList.slideToggle(150);
+                $('.custom-language-selector').toggleClass('open');
+            });
+
+            optionsList.on('click', 'li', function () {
+                const selectedValue = $(this).data('value');
+                const selectedAbbr = $(this).find('.lang-abbr').text();
+                selectorBtn.find('.lang-abbr').text(selectedAbbr); // Обновляем только текст
+                hiddenSelect.val(selectedValue);
+                hiddenSelect.trigger('change'); // Запускаем ваш старый обработчик AJAX
+                optionsList.slideUp(150);
+                $('.custom-language-selector').removeClass('open');
+
+                optionsList.find('li.selected').removeClass('selected');
+                $(this).addClass('selected');
+            });
+
+            $(document).on('click', function (e) {
+                if (!$(e.target).closest('.custom-language-selector').length) {
+                    if (optionsList.is(':visible')) {
+                        optionsList.slideUp(150);
+                        $('.custom-language-selector').removeClass('open');
+                    }
+                }
+            });
 
             $('#CultureList').on('change', function () {
                 $.ajax({
-                    url: '/home/ChangeLanguage',
+                    url: '@Url.Action("ChangeLanguage", "Home")',
                     data: { culture: $(this).val() },
                     dataType: 'json',
                     type: 'POST',
@@ -164,12 +199,11 @@
                         location.reload();
                     },
                     error: function (xhr, status, error) {
-
+                        console.error("Error changing language:", status, error);
                     }
                 });
             });
-
-        })
+        });
     </script>
     <!-- Scripts End -->
 </body>

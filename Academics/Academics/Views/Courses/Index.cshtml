@@ -1,4 +1,4 @@
-﻿@model List<Course>
+﻿@model List<CourseViewModel>
 @{
     ViewData["Title"] = localizer["courses"].Value;
     ViewData["Description"] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
@@ -19,7 +19,7 @@
                     <div class="course-1-item">
                         <figure class="thumnail">
                             <a href="@course.CourseUrl">
-                                <img src="@course.ImageUrl" alt="Image" class="img-fluid">
+                                <img src="data:image/jpeg;base64,@Convert.ToBase64String(course.Image)" class="img-fluid" />
                             </a>
                             <div class="price">$@course.Price.ToString("0.00")</div>
                             <div class="category"><h3>@course.Category</h3></div>
@@ -35,7 +35,7 @@
                             
                             <p class="desc mb-4">@course.Description</p>
                             <p>
-                                <a href="@course.CourseUrl" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a>
+                                <a href="@course.CourseUrl" class="btn btn-primary rounded-0 px-4">@localizer["enroll"]</a>
                             </p>
                         </div>
                     </div>

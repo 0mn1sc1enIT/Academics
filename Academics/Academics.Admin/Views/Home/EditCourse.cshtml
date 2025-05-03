@@ -18,7 +18,7 @@
 	</div>
 	<div class="portlet-body form">
 		<!-- BEGIN FORM-->
-		<form asp-action="EditCourse" asp-controller="Home" class="form-horizontal">
+		<form asp-action="EditCourse" asp-controller="Home" method="post" enctype="multipart/form-data" class="form-horizontal">
 			<div class="form-body">
 
 				<div class="form-group">
@@ -27,6 +27,16 @@
 						<select class="form-control" asp-for="TeacherId" asp-items="ViewBag.Teachers">
 							<option value="">Select Teacher</option>
 						</select>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label class="col-md-3 control-label">Course Category</label>
+					<div class="col-md-4">
+						<input type="text" class="form-control" placeholder="Enter course category" asp-for="Category">
+						<span class="help-block">
+							Enter category of the course.
+						</span>
 					</div>
 				</div>
 
@@ -77,6 +87,13 @@
 						<span class="help-block">
 							Enter rating from 0 to 5 stars.
 						</span>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label class="col-md-3 control-label">Photo</label>
+					<div class="col-md-4">
+						<input type="file" class="form-control" name="imageFile">
 					</div>
 				</div>
 

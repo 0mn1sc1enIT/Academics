@@ -182,24 +182,46 @@ namespace Academics.Admin.Controllers
 
 		// —охранение курса (добавление или редактирование)
 		[HttpPost]
-		public IActionResult EditCourse(Course course)
+		public async Task<IActionResult> EditCourse(Course course, IFormFile? imageFile)
 		{
 			if (course.Id != 0)
 			{
 				var _course = _db.Courses.Find(course.Id);
-				_course.TeacherId = course.TeacherId;
-				_course.Hours = course.Hours;
-				_course.Description = course.Description;
-				_course.CourseTitle = course.CourseTitle;
-				_course.Price = course.Price;
-				_course.Stars = course.Stars;
+				if (_course != null)
+				{
+					_course.TeacherId = course.TeacherId;
+					_course.Hours = course.Hours;
+					_course.Description = course.Description;
+					_course.CourseTitle = course.CourseTitle;
+					_course.Price = course.Price;
+					_course.Stars = course.Stars;
+					_course.Category = course.Category;
 
-				_db.SaveChanges();
+					if (imageFile != null && imageFile.Length > 0)
+					{
+						using (var memoryStream = new MemoryStream())
+						{
+							await imageFile.CopyToAsync(memoryStream);
+							_course.image = memoryStream.ToArray();
+						}
+					}
+
+					await _db.SaveChangesAsync();
+				}
 			}
 			else
 			{
+				if (imageFile != null && imageFile.Length > 0)
+				{
+					using (var memoryStream = new MemoryStream())
+					{
+						await imageFile.CopyToAsync(memoryStream);
+						course.image = memoryStream.ToArray();
+					}
+				}
+
 				_db.Courses.Add(course);
-				_db.SaveChanges();
+				await _db.SaveChangesAsync();
 			}
 
 			return RedirectToAction("Course", "Home");

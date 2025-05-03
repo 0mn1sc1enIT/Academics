@@ -5,17 +5,45 @@
 @inject IOptions<RequestLocalizationOptions> LocOptions
 @{
     var requestCulture = Context.Features.Get<IRequestCultureFeature>();
-    var cultureItems = LocOptions.Value.SupportedUICultures
+    var currentCultureName = requestCulture.RequestCulture.UICulture.Name;
+
+    var languageItems = LocOptions.Value.SupportedUICultures
+        .Select(c => new
+        {
+            Value = c.Name,
+            Abbreviation = c.Name.Split('-')[0]
+        })
+        .ToList();
+
+    // Находим текущий выбранный элемент
+    var currentLanguageItem = languageItems.FirstOrDefault(l => l.Value == currentCultureName)
+                           ?? languageItems.First();
+
+    // Оригинальный список для скрытого select (остается без изменений)
+    var cultureItemsForSelect = LocOptions.Value.SupportedUICultures
         .Select(c => new SelectListItem { Value = c.Name, Text = c.DisplayName })
         .ToList();
 }
 
 
-<span class="text-theme">Lang:</span>
-<span>
-    <form id="cultureForm" asp-controller="Home" asp-action="ChangeLanguage" method="post">
+<div class="custom-language-selector">
+    <button type="button" class="selected-language" id="languageSelectorBtn">
+        <span class="lang-abbr">@currentLanguageItem.Abbreviation</span>
+        <i class="fas fa-chevron-down dropdown-arrow"></i>
+    </button>
+
+    <ul class="language-options" id="languageOptionsList" style="display: none;">
+        @foreach (var item in languageItems)
+        {
+            <li data-value="@item.Value" class="@(item.Value == currentCultureName ? "selected" : "")">
+                <span class="lang-abbr">@item.Abbreviation</span>
+            </li>
+        }
+    </ul>
+
+    <form id="cultureForm" asp-controller="Home" asp-action="ChangeLanguage" method="post" style="display: none;">
         <select id="CultureList" name="culture"
-                asp-for="@requestCulture.RequestCulture.UICulture.Name" asp-items="cultureItems">
+                asp-for="@requestCulture.RequestCulture.UICulture.Name" asp-items="cultureItemsForSelect">
         </select>
     </form>
-</span>
+</div>

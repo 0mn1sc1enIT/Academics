@@ -1,6 +1,6 @@
 [
   {
-    "Name": "Новый профиль",
+    "Name": "Web+Admin",
     "Projects": [
       {
         "Path": "Academics\\Academics.csproj",
@@ -8,6 +8,36 @@
       },
       {
         "Path": "Academics.Admin\\Academics.Admin.csproj",
+        "Action": "Start"
+      }
+    ]
+  },
+  {
+    "Name": "Web+API",
+    "Projects": [
+      {
+        "Path": "Academics\\Academics.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Academics.WebAPI\\Academics.WebAPI.csproj",
+        "Action": "Start"
+      }
+    ]
+  },
+  {
+    "Name": "All",
+    "Projects": [
+      {
+        "Path": "Academics\\Academics.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Academics.Admin\\Academics.Admin.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Academics.WebAPI\\Academics.WebAPI.csproj",
         "Action": "Start"
       }
     ]

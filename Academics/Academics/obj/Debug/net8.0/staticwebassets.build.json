@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vLXaEc/GQq95qkjJroYOk2dXs3VXeBilHOo7xJYKGtw=",
+  "Hash": "3HluLS3nK5amds6fT4J68uqNsODs2nVi2biGVBTA09Y=",
   "Source": "Academics",
   "BasePath": "_content/Academics",
   "Mode": "Default",
@@ -78,6 +78,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\aos.css"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\css\\bootstrap-datepicker.css",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "css/bootstrap-datepicker#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mjvdum9pe2",
+      "Integrity": "8qbGU+6CyzZndATqt8JYzpha71ptNqBkpagFVI+t6oI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-datepicker.css"
     },
     {
       "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\css\\bootstrap.min.css",
@@ -164,12 +185,12 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\css\\bootstrap-datepicker.css",
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\css\\jquery-ui.css",
       "SourceId": "Academics",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
       "BasePath": "_content/Academics",
-      "RelativePath": "css/bootstrap-datepicker#[.{fingerprint}]?.css",
+      "RelativePath": "css/jquery-ui#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -178,11 +199,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mjvdum9pe2",
-      "Integrity": "8qbGU+6CyzZndATqt8JYzpha71ptNqBkpagFVI+t6oI=",
+      "Fingerprint": "2a7kgwtbh6",
+      "Integrity": "2oFnEE3AEKsHuIT9iUHpKq0lj0rQ2GuS41qtoVtFopQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap-datepicker.css"
+      "OriginalItemSpec": "wwwroot\\css\\jquery-ui.css"
     },
     {
       "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\css\\jquery.fancybox.min.css",
@@ -225,27 +246,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\jquery.mb.YTPlayer.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\css\\jquery-ui.css",
-      "SourceId": "Academics",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
-      "BasePath": "_content/Academics",
-      "RelativePath": "css/jquery-ui#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "2a7kgwtbh6",
-      "Integrity": "2oFnEE3AEKsHuIT9iUHpKq0lj0rQ2GuS41qtoVtFopQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\jquery-ui.css"
     },
     {
       "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\css\\magnific-popup.css",
@@ -346,8 +346,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7n2a3mvg3w",
-      "Integrity": "Hen3rB+zt2aWdC4gV94d2qOuFc3WZ5XaX0DOZR0MZk0=",
+      "Fingerprint": "uxqbiwmtje",
+      "Integrity": "3jDSt1dG3E/6uGk6e/zky7bM7EfJ7T9lqVajPIWwkEk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -626,27 +626,6 @@
       "OriginalItemSpec": "wwwroot\\fonts\\flaticon\\license\\license.pdf"
     },
     {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\fonts\\icomoon\\demo.html",
-      "SourceId": "Academics",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
-      "BasePath": "_content/Academics",
-      "RelativePath": "fonts/icomoon/demo#[.{fingerprint}]?.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "oxt8mejmyv",
-      "Integrity": "jMcExv3CSx0JP5UcbOsuiE/2d1kgXatuyrpqAMK/kAE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\fonts\\icomoon\\demo.html"
-    },
-    {
       "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\fonts\\icomoon\\demo-files\\demo.css",
       "SourceId": "Academics",
       "SourceType": "Discovered",
@@ -687,6 +666,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\fonts\\icomoon\\demo-files\\demo.js"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\fonts\\icomoon\\demo.html",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "fonts/icomoon/demo#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oxt8mejmyv",
+      "Integrity": "jMcExv3CSx0JP5UcbOsuiE/2d1kgXatuyrpqAMK/kAE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\icomoon\\demo.html"
     },
     {
       "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.eot",
@@ -1046,6 +1046,27 @@
       "OriginalItemSpec": "wwwroot\\images\\course_6.jpg"
     },
     {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\course1.jpg",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "images/course1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lukbk2a6x6",
+      "Integrity": "TTrThRn62/gtg/eg9J9fzbvUIdgop92CjIRh46ssT6k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\course1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\hero_1.jpg",
       "SourceId": "Academics",
       "SourceType": "Discovered",
@@ -1065,6 +1086,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\hero_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\hero_2.jpg",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "images/hero_2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s12zxtaox5",
+      "Integrity": "IOq8VGVnmjEEekePtHO7/30y4a/xl/KJN481yL5MsW8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hero_2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\hero_3.jpg",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "images/hero_3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7ylv4e78u5",
+      "Integrity": "IZOAWBRFcxbvu6aYXRCY8LKv2y1peeC9nf3aTe5rT48=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hero_3.jpg"
     },
     {
       "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\logo.jpg",
@@ -1193,6 +1256,69 @@
       "OriginalItemSpec": "wwwroot\\images\\person_4.jpg"
     },
     {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\person_5.jpg",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "images/person_5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0u4z8e1194",
+      "Integrity": "yKxeWKtH5CvCRX1BgUZ5kwaAV0c8d9urZ0TuSpcfCMk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\person_5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\person_6.jpg",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "images/person_6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rnbtwwc14p",
+      "Integrity": "R4CIu3vODXIhiaYAVd8Z4i+NCxdFQIhhsoj/BWVIToc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\person_6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\person_7.jpg",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "images/person_7#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yndlvuu34f",
+      "Integrity": "bo/3BUXeCmQHrGw4OAfzraL+BxHnE4fuqFcz6hXbEGs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\person_7.jpg"
+    },
+    {
       "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\aos.js",
       "SourceId": "Academics",
       "SourceType": "Discovered",
@@ -1212,6 +1338,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\aos.js"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\bootstrap-datepicker.min.js",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "js/bootstrap-datepicker.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uzzu3j51ff",
+      "Integrity": "urCxMaTtyuE8UK5XeVYuQbm/MhnXflqZ/B9AOkyTguo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap-datepicker.min.js"
     },
     {
       "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\bootstrap.min.js",
@@ -1235,12 +1382,12 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\bootstrap-datepicker.min.js",
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\jquery-3.3.1.min.js",
       "SourceId": "Academics",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
       "BasePath": "_content/Academics",
-      "RelativePath": "js/bootstrap-datepicker.min#[.{fingerprint}]?.js",
+      "RelativePath": "js/jquery-3.3.1.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1249,11 +1396,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "uzzu3j51ff",
-      "Integrity": "urCxMaTtyuE8UK5XeVYuQbm/MhnXflqZ/B9AOkyTguo=",
+      "Fingerprint": "y78zfkquzf",
+      "Integrity": "oozPintQUive6gzYPN7KIhwY/B+d8+5rPTxI1ZkgaFU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\bootstrap-datepicker.min.js"
+      "OriginalItemSpec": "wwwroot\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\jquery-migrate-3.0.1.min.js",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "js/jquery-migrate-3.0.1.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "feh0jahy3n",
+      "Integrity": "F0O1TmEa4I8N24nY0bya59eP6svWcshqX1uzwaWC4F4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery-migrate-3.0.1.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\jquery-ui.js",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "js/jquery-ui#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4lweedi59e",
+      "Integrity": "iOHMVGe/zRvWsmn8+dtoRnaufXMsKgNtENrNtm9rvKo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery-ui.js"
     },
     {
       "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\jquery.countdown.min.js",
@@ -1403,69 +1592,6 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.sticky.js"
     },
     {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\jquery-3.3.1.min.js",
-      "SourceId": "Academics",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
-      "BasePath": "_content/Academics",
-      "RelativePath": "js/jquery-3.3.1.min#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "y78zfkquzf",
-      "Integrity": "oozPintQUive6gzYPN7KIhwY/B+d8+5rPTxI1ZkgaFU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\jquery-3.3.1.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\jquery-migrate-3.0.1.min.js",
-      "SourceId": "Academics",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
-      "BasePath": "_content/Academics",
-      "RelativePath": "js/jquery-migrate-3.0.1.min#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "feh0jahy3n",
-      "Integrity": "F0O1TmEa4I8N24nY0bya59eP6svWcshqX1uzwaWC4F4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\jquery-migrate-3.0.1.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\jquery-ui.js",
-      "SourceId": "Academics",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
-      "BasePath": "_content/Academics",
-      "RelativePath": "js/jquery-ui#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "4lweedi59e",
-      "Integrity": "iOHMVGe/zRvWsmn8+dtoRnaufXMsKgNtENrNtm9rvKo=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\jquery-ui.js"
-    },
-    {
       "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\main.js",
       "SourceId": "Academics",
       "SourceType": "Discovered",
@@ -1611,174 +1737,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\typed.js"
-    },
-    {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "Academics",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
-      "BasePath": "_content/Academics",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "mpyigms19s",
-      "Integrity": "xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
-    },
-    {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "Academics",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
-      "BasePath": "_content/Academics",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "73kdqttayv",
-      "Integrity": "DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "Academics",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
-      "BasePath": "_content/Academics",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "bpk8xqwxhs",
-      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "Academics",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
-      "BasePath": "_content/Academics",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "8inm30yfxf",
-      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "Academics",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
-      "BasePath": "_content/Academics",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ve6x09088i",
-      "Integrity": "SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "Academics",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
-      "BasePath": "_content/Academics",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "4gxs3k148c",
-      "Integrity": "VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "Academics",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
-      "BasePath": "_content/Academics",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "9b9oa1qrmt",
-      "Integrity": "22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "Academics",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
-      "BasePath": "_content/Academics",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "fctod5rc9n",
-      "Integrity": "j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
       "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -2285,6 +2243,174 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mpyigms19s",
+      "Integrity": "xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "73kdqttayv",
+      "Integrity": "DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ve6x09088i",
+      "Integrity": "SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4gxs3k148c",
+      "Integrity": "VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9b9oa1qrmt",
+      "Integrity": "22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fctod5rc9n",
+      "Integrity": "j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
       "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Academics",
       "SourceType": "Discovered",
@@ -2558,12 +2684,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Academics",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
       "BasePath": "_content/Academics",
-      "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2572,19 +2698,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fwhahm2icz",
-      "Integrity": "H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=",
+      "Fingerprint": "47otxtyo56",
+      "Integrity": "wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Academics",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
       "BasePath": "_content/Academics",
-      "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2593,19 +2719,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dd6z7egasc",
-      "Integrity": "/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=",
+      "Fingerprint": "4v8eqarkd7",
+      "Integrity": "YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Academics",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
       "BasePath": "_content/Academics",
-      "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
+      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2614,32 +2740,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5pze98is44",
-      "Integrity": "OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I=",
+      "Fingerprint": "356vix0kms",
+      "Integrity": "16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "Academics",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
-      "BasePath": "_content/Academics",
-      "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "mlv21k5csn",
-      "Integrity": "hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
       "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
@@ -2747,12 +2852,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Academics",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
       "BasePath": "_content/Academics",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
+      "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2761,19 +2866,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "47otxtyo56",
-      "Integrity": "wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=",
+      "Fingerprint": "fwhahm2icz",
+      "Integrity": "H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Academics",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
       "BasePath": "_content/Academics",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
+      "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2782,19 +2887,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4v8eqarkd7",
-      "Integrity": "YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=",
+      "Fingerprint": "dd6z7egasc",
+      "Integrity": "/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Academics",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
       "BasePath": "_content/Academics",
-      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
+      "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2803,11 +2908,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "356vix0kms",
-      "Integrity": "16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=",
+      "Fingerprint": "5pze98is44",
+      "Integrity": "OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mlv21k5csn",
+      "Integrity": "hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
       "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\scss\\_site-base.scss",
@@ -3608,27 +3734,6 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\_variables.scss"
     },
     {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\scss\\bootstrap\\bootstrap.scss",
-      "SourceId": "Academics",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
-      "BasePath": "_content/Academics",
-      "RelativePath": "scss/bootstrap/bootstrap#[.{fingerprint}]?.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "7n36judugw",
-      "Integrity": "DS1mBTDYFlKISuzHZlNkDeCbEWXNmYTV0xAJ47R6/lo=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\bootstrap.scss"
-    },
-    {
       "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\scss\\bootstrap\\bootstrap-grid.scss",
       "SourceId": "Academics",
       "SourceType": "Discovered",
@@ -3669,6 +3774,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\scss\\bootstrap\\bootstrap.scss",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "scss/bootstrap/bootstrap#[.{fingerprint}]?.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7n36judugw",
+      "Integrity": "DS1mBTDYFlKISuzHZlNkDeCbEWXNmYTV0xAJ47R6/lo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\bootstrap.scss"
     },
     {
       "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\scss\\bootstrap\\mixins\\_alert.scss",
@@ -3923,27 +4049,6 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\mixins\\_gradients.scss"
     },
     {
-      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\scss\\bootstrap\\mixins\\_grid.scss",
-      "SourceId": "Academics",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
-      "BasePath": "_content/Academics",
-      "RelativePath": "scss/bootstrap/mixins/_grid#[.{fingerprint}]?.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "dz7nga61ku",
-      "Integrity": "KaAphGFcjAA27Q6GlWs0t6a11b71QUEMraLxEH43zZc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\mixins\\_grid.scss"
-    },
-    {
       "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\scss\\bootstrap\\mixins\\_grid-framework.scss",
       "SourceId": "Academics",
       "SourceType": "Discovered",
@@ -3963,6 +4068,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\scss\\bootstrap\\mixins\\_grid.scss",
+      "SourceId": "Academics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\",
+      "BasePath": "_content/Academics",
+      "RelativePath": "scss/bootstrap/mixins/_grid#[.{fingerprint}]?.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dz7nga61ku",
+      "Integrity": "KaAphGFcjAA27Q6GlWs0t6a11b71QUEMraLxEH43zZc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\mixins\\_grid.scss"
     },
     {
       "Identity": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\scss\\bootstrap\\mixins\\_hover.scss",
@@ -4661,7 +4787,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 14:25:46 GMT"
+          "Value": "Tue, 29 Apr 2025 04:41:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4698,7 +4824,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 14:25:46 GMT"
+          "Value": "Tue, 29 Apr 2025 04:41:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4743,7 +4869,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 14:25:46 GMT"
+          "Value": "Tue, 29 Apr 2025 04:41:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4788,7 +4914,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 14:25:46 GMT"
+          "Value": "Tue, 29 Apr 2025 04:41:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4881,6 +5007,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-G2+IcX6XRBcYufvUNrCqZdR1PDbJkBU164G3zkt2C8Q="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-datepicker.css",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\css\\bootstrap-datepicker.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8qbGU+6CyzZndATqt8JYzpha71ptNqBkpagFVI+t6oI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8qbGU+6CyzZndATqt8JYzpha71ptNqBkpagFVI+t6oI="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-datepicker.mjvdum9pe2.css",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\css\\bootstrap-datepicker.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8qbGU+6CyzZndATqt8JYzpha71ptNqBkpagFVI+t6oI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mjvdum9pe2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-datepicker.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8qbGU+6CyzZndATqt8JYzpha71ptNqBkpagFVI+t6oI="
         }
       ]
     },
@@ -5213,8 +5421,8 @@
       ]
     },
     {
-      "Route": "css/bootstrap-datepicker.css",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\css\\bootstrap-datepicker.css",
+      "Route": "css/jquery-ui.2a7kgwtbh6.css",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\css\\jquery-ui.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5223,7 +5431,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17144"
+          "Value": "21738"
         },
         {
           "Name": "Content-Type",
@@ -5231,44 +5439,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8qbGU+6CyzZndATqt8JYzpha71ptNqBkpagFVI+t6oI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8qbGU+6CyzZndATqt8JYzpha71ptNqBkpagFVI+t6oI="
-        }
-      ]
-    },
-    {
-      "Route": "css/bootstrap-datepicker.mjvdum9pe2.css",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\css\\bootstrap-datepicker.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17144"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8qbGU+6CyzZndATqt8JYzpha71ptNqBkpagFVI+t6oI=\""
+          "Value": "\"2oFnEE3AEKsHuIT9iUHpKq0lj0rQ2GuS41qtoVtFopQ=\""
         },
         {
           "Name": "Last-Modified",
@@ -5282,15 +5453,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mjvdum9pe2"
+          "Value": "2a7kgwtbh6"
         },
         {
           "Name": "label",
-          "Value": "css/bootstrap-datepicker.css"
+          "Value": "css/jquery-ui.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8qbGU+6CyzZndATqt8JYzpha71ptNqBkpagFVI+t6oI="
+          "Value": "sha256-2oFnEE3AEKsHuIT9iUHpKq0lj0rQ2GuS41qtoVtFopQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/jquery-ui.css",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\css\\jquery-ui.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21738"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2oFnEE3AEKsHuIT9iUHpKq0lj0rQ2GuS41qtoVtFopQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2oFnEE3AEKsHuIT9iUHpKq0lj0rQ2GuS41qtoVtFopQ="
         }
       ]
     },
@@ -5455,88 +5663,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-FFos8S/OTezL+LaNl5JTM2rQzn9mh+KeI+Rfo1iP0yY="
-        }
-      ]
-    },
-    {
-      "Route": "css/jquery-ui.2a7kgwtbh6.css",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\css\\jquery-ui.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "21738"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2oFnEE3AEKsHuIT9iUHpKq0lj0rQ2GuS41qtoVtFopQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2a7kgwtbh6"
-        },
-        {
-          "Name": "label",
-          "Value": "css/jquery-ui.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-2oFnEE3AEKsHuIT9iUHpKq0lj0rQ2GuS41qtoVtFopQ="
-        }
-      ]
-    },
-    {
-      "Route": "css/jquery-ui.css",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\css\\jquery-ui.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "21738"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2oFnEE3AEKsHuIT9iUHpKq0lj0rQ2GuS41qtoVtFopQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2oFnEE3AEKsHuIT9iUHpKq0lj0rQ2GuS41qtoVtFopQ="
         }
       ]
     },
@@ -5869,51 +5995,6 @@
       ]
     },
     {
-      "Route": "css/site.7n2a3mvg3w.css",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "365"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Hen3rB+zt2aWdC4gV94d2qOuFc3WZ5XaX0DOZR0MZk0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 13:11:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7n2a3mvg3w"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Hen3rB+zt2aWdC4gV94d2qOuFc3WZ5XaX0DOZR0MZk0="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -5924,7 +6005,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "365"
+          "Value": "5414"
         },
         {
           "Name": "Content-Type",
@@ -5932,11 +6013,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Hen3rB+zt2aWdC4gV94d2qOuFc3WZ5XaX0DOZR0MZk0=\""
+          "Value": "\"3jDSt1dG3E/6uGk6e/zky7bM7EfJ7T9lqVajPIWwkEk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 13:11:06 GMT"
+          "Value": "Mon, 28 Apr 2025 05:23:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5946,7 +6027,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Hen3rB+zt2aWdC4gV94d2qOuFc3WZ5XaX0DOZR0MZk0="
+          "Value": "sha256-3jDSt1dG3E/6uGk6e/zky7bM7EfJ7T9lqVajPIWwkEk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.uxqbiwmtje.css",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5414"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3jDSt1dG3E/6uGk6e/zky7bM7EfJ7T9lqVajPIWwkEk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 05:23:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uxqbiwmtje"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3jDSt1dG3E/6uGk6e/zky7bM7EfJ7T9lqVajPIWwkEk="
         }
       ]
     },
@@ -7017,88 +7143,6 @@
       ]
     },
     {
-      "Route": "fonts/icomoon/demo.html",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\fonts\\icomoon\\demo.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1263120"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jMcExv3CSx0JP5UcbOsuiE/2d1kgXatuyrpqAMK/kAE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jMcExv3CSx0JP5UcbOsuiE/2d1kgXatuyrpqAMK/kAE="
-        }
-      ]
-    },
-    {
-      "Route": "fonts/icomoon/demo.oxt8mejmyv.html",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\fonts\\icomoon\\demo.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1263120"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jMcExv3CSx0JP5UcbOsuiE/2d1kgXatuyrpqAMK/kAE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "oxt8mejmyv"
-        },
-        {
-          "Name": "label",
-          "Value": "fonts/icomoon/demo.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-jMcExv3CSx0JP5UcbOsuiE/2d1kgXatuyrpqAMK/kAE="
-        }
-      ]
-    },
-    {
       "Route": "fonts/icomoon/demo-files/demo.3rbzn7h9s9.css",
       "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\fonts\\icomoon\\demo-files\\demo.css",
       "Selectors": [],
@@ -7259,6 +7303,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-C+lvUxPnpR6bwwt1h+4Um1THyzahlZhCh17XRUZ3s2c="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/icomoon/demo.html",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\fonts\\icomoon\\demo.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1263120"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jMcExv3CSx0JP5UcbOsuiE/2d1kgXatuyrpqAMK/kAE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jMcExv3CSx0JP5UcbOsuiE/2d1kgXatuyrpqAMK/kAE="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/icomoon/demo.oxt8mejmyv.html",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\fonts\\icomoon\\demo.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1263120"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jMcExv3CSx0JP5UcbOsuiE/2d1kgXatuyrpqAMK/kAE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oxt8mejmyv"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/icomoon/demo.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jMcExv3CSx0JP5UcbOsuiE/2d1kgXatuyrpqAMK/kAE="
         }
       ]
     },
@@ -8657,6 +8783,88 @@
       ]
     },
     {
+      "Route": "images/course1.jpg",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\course1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55880"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TTrThRn62/gtg/eg9J9fzbvUIdgop92CjIRh46ssT6k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 14:55:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TTrThRn62/gtg/eg9J9fzbvUIdgop92CjIRh46ssT6k="
+        }
+      ]
+    },
+    {
+      "Route": "images/course1.lukbk2a6x6.jpg",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\course1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55880"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TTrThRn62/gtg/eg9J9fzbvUIdgop92CjIRh46ssT6k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 14:55:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lukbk2a6x6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/course1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TTrThRn62/gtg/eg9J9fzbvUIdgop92CjIRh46ssT6k="
+        }
+      ]
+    },
+    {
       "Route": "images/hero_1.jpg",
       "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\hero_1.jpg",
       "Selectors": [],
@@ -8735,6 +8943,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-ssuGF061btwmCD3fN9b9pmQXeaZiWt0IQEDsplzS4oE="
+        }
+      ]
+    },
+    {
+      "Route": "images/hero_2.jpg",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\hero_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "129222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IOq8VGVnmjEEekePtHO7/30y4a/xl/KJN481yL5MsW8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 14:49:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IOq8VGVnmjEEekePtHO7/30y4a/xl/KJN481yL5MsW8="
+        }
+      ]
+    },
+    {
+      "Route": "images/hero_2.s12zxtaox5.jpg",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\hero_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "129222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IOq8VGVnmjEEekePtHO7/30y4a/xl/KJN481yL5MsW8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 14:49:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s12zxtaox5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/hero_2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IOq8VGVnmjEEekePtHO7/30y4a/xl/KJN481yL5MsW8="
+        }
+      ]
+    },
+    {
+      "Route": "images/hero_3.7ylv4e78u5.jpg",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\hero_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124621"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IZOAWBRFcxbvu6aYXRCY8LKv2y1peeC9nf3aTe5rT48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 14:50:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7ylv4e78u5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/hero_3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IZOAWBRFcxbvu6aYXRCY8LKv2y1peeC9nf3aTe5rT48="
+        }
+      ]
+    },
+    {
+      "Route": "images/hero_3.jpg",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\hero_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124621"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IZOAWBRFcxbvu6aYXRCY8LKv2y1peeC9nf3aTe5rT48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 14:50:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IZOAWBRFcxbvu6aYXRCY8LKv2y1peeC9nf3aTe5rT48="
         }
       ]
     },
@@ -9231,6 +9603,252 @@
       ]
     },
     {
+      "Route": "images/person_5.0u4z8e1194.jpg",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\person_5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "371794"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yKxeWKtH5CvCRX1BgUZ5kwaAV0c8d9urZ0TuSpcfCMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 14:44:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0u4z8e1194"
+        },
+        {
+          "Name": "label",
+          "Value": "images/person_5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yKxeWKtH5CvCRX1BgUZ5kwaAV0c8d9urZ0TuSpcfCMk="
+        }
+      ]
+    },
+    {
+      "Route": "images/person_5.jpg",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\person_5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "371794"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yKxeWKtH5CvCRX1BgUZ5kwaAV0c8d9urZ0TuSpcfCMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 14:44:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yKxeWKtH5CvCRX1BgUZ5kwaAV0c8d9urZ0TuSpcfCMk="
+        }
+      ]
+    },
+    {
+      "Route": "images/person_6.jpg",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\person_6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31756"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R4CIu3vODXIhiaYAVd8Z4i+NCxdFQIhhsoj/BWVIToc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 14:45:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R4CIu3vODXIhiaYAVd8Z4i+NCxdFQIhhsoj/BWVIToc="
+        }
+      ]
+    },
+    {
+      "Route": "images/person_6.rnbtwwc14p.jpg",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\person_6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31756"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R4CIu3vODXIhiaYAVd8Z4i+NCxdFQIhhsoj/BWVIToc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 14:45:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rnbtwwc14p"
+        },
+        {
+          "Name": "label",
+          "Value": "images/person_6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R4CIu3vODXIhiaYAVd8Z4i+NCxdFQIhhsoj/BWVIToc="
+        }
+      ]
+    },
+    {
+      "Route": "images/person_7.jpg",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\person_7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29629"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bo/3BUXeCmQHrGw4OAfzraL+BxHnE4fuqFcz6hXbEGs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 15:14:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bo/3BUXeCmQHrGw4OAfzraL+BxHnE4fuqFcz6hXbEGs="
+        }
+      ]
+    },
+    {
+      "Route": "images/person_7.yndlvuu34f.jpg",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\person_7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29629"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bo/3BUXeCmQHrGw4OAfzraL+BxHnE4fuqFcz6hXbEGs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 15:14:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yndlvuu34f"
+        },
+        {
+          "Name": "label",
+          "Value": "images/person_7.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bo/3BUXeCmQHrGw4OAfzraL+BxHnE4fuqFcz6hXbEGs="
+        }
+      ]
+    },
+    {
       "Route": "js/aos.js",
       "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\aos.js",
       "Selectors": [],
@@ -9309,6 +9927,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-issEYoOUmTZW2tEfIwKfxq0Tz5DPqh9d+JFQsnJ2hKk="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap-datepicker.min.js",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\bootstrap-datepicker.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"urCxMaTtyuE8UK5XeVYuQbm/MhnXflqZ/B9AOkyTguo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-urCxMaTtyuE8UK5XeVYuQbm/MhnXflqZ/B9AOkyTguo="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap-datepicker.min.uzzu3j51ff.js",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\bootstrap-datepicker.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"urCxMaTtyuE8UK5XeVYuQbm/MhnXflqZ/B9AOkyTguo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uzzu3j51ff"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap-datepicker.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-urCxMaTtyuE8UK5XeVYuQbm/MhnXflqZ/B9AOkyTguo="
         }
       ]
     },
@@ -9395,8 +10095,8 @@
       ]
     },
     {
-      "Route": "js/bootstrap-datepicker.min.js",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\bootstrap-datepicker.min.js",
+      "Route": "js/jquery-3.3.1.min.js",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\jquery-3.3.1.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9405,7 +10105,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "34172"
+          "Value": "86926"
         },
         {
           "Name": "Content-Type",
@@ -9413,7 +10113,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"urCxMaTtyuE8UK5XeVYuQbm/MhnXflqZ/B9AOkyTguo=\""
+          "Value": "\"oozPintQUive6gzYPN7KIhwY/B+d8+5rPTxI1ZkgaFU=\""
         },
         {
           "Name": "Last-Modified",
@@ -9427,13 +10127,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-urCxMaTtyuE8UK5XeVYuQbm/MhnXflqZ/B9AOkyTguo="
+          "Value": "sha256-oozPintQUive6gzYPN7KIhwY/B+d8+5rPTxI1ZkgaFU="
         }
       ]
     },
     {
-      "Route": "js/bootstrap-datepicker.min.uzzu3j51ff.js",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\bootstrap-datepicker.min.js",
+      "Route": "js/jquery-3.3.1.min.y78zfkquzf.js",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\jquery-3.3.1.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9442,7 +10142,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "34172"
+          "Value": "86926"
         },
         {
           "Name": "Content-Type",
@@ -9450,7 +10150,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"urCxMaTtyuE8UK5XeVYuQbm/MhnXflqZ/B9AOkyTguo=\""
+          "Value": "\"oozPintQUive6gzYPN7KIhwY/B+d8+5rPTxI1ZkgaFU=\""
         },
         {
           "Name": "Last-Modified",
@@ -9464,15 +10164,179 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "uzzu3j51ff"
+          "Value": "y78zfkquzf"
         },
         {
           "Name": "label",
-          "Value": "js/bootstrap-datepicker.min.js"
+          "Value": "js/jquery-3.3.1.min.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-urCxMaTtyuE8UK5XeVYuQbm/MhnXflqZ/B9AOkyTguo="
+          "Value": "sha256-oozPintQUive6gzYPN7KIhwY/B+d8+5rPTxI1ZkgaFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery-migrate-3.0.1.min.feh0jahy3n.js",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\jquery-migrate-3.0.1.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11421"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F0O1TmEa4I8N24nY0bya59eP6svWcshqX1uzwaWC4F4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "feh0jahy3n"
+        },
+        {
+          "Name": "label",
+          "Value": "js/jquery-migrate-3.0.1.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F0O1TmEa4I8N24nY0bya59eP6svWcshqX1uzwaWC4F4="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery-migrate-3.0.1.min.js",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\jquery-migrate-3.0.1.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11421"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F0O1TmEa4I8N24nY0bya59eP6svWcshqX1uzwaWC4F4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F0O1TmEa4I8N24nY0bya59eP6svWcshqX1uzwaWC4F4="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery-ui.4lweedi59e.js",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\jquery-ui.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45799"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iOHMVGe/zRvWsmn8+dtoRnaufXMsKgNtENrNtm9rvKo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4lweedi59e"
+        },
+        {
+          "Name": "label",
+          "Value": "js/jquery-ui.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iOHMVGe/zRvWsmn8+dtoRnaufXMsKgNtENrNtm9rvKo="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery-ui.js",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\jquery-ui.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45799"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iOHMVGe/zRvWsmn8+dtoRnaufXMsKgNtENrNtm9rvKo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iOHMVGe/zRvWsmn8+dtoRnaufXMsKgNtENrNtm9rvKo="
         }
       ]
     },
@@ -10051,252 +10915,6 @@
       ]
     },
     {
-      "Route": "js/jquery-3.3.1.min.js",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\jquery-3.3.1.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "86926"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"oozPintQUive6gzYPN7KIhwY/B+d8+5rPTxI1ZkgaFU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-oozPintQUive6gzYPN7KIhwY/B+d8+5rPTxI1ZkgaFU="
-        }
-      ]
-    },
-    {
-      "Route": "js/jquery-3.3.1.min.y78zfkquzf.js",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\jquery-3.3.1.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "86926"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"oozPintQUive6gzYPN7KIhwY/B+d8+5rPTxI1ZkgaFU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "y78zfkquzf"
-        },
-        {
-          "Name": "label",
-          "Value": "js/jquery-3.3.1.min.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-oozPintQUive6gzYPN7KIhwY/B+d8+5rPTxI1ZkgaFU="
-        }
-      ]
-    },
-    {
-      "Route": "js/jquery-migrate-3.0.1.min.feh0jahy3n.js",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\jquery-migrate-3.0.1.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "11421"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"F0O1TmEa4I8N24nY0bya59eP6svWcshqX1uzwaWC4F4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "feh0jahy3n"
-        },
-        {
-          "Name": "label",
-          "Value": "js/jquery-migrate-3.0.1.min.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-F0O1TmEa4I8N24nY0bya59eP6svWcshqX1uzwaWC4F4="
-        }
-      ]
-    },
-    {
-      "Route": "js/jquery-migrate-3.0.1.min.js",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\jquery-migrate-3.0.1.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "11421"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"F0O1TmEa4I8N24nY0bya59eP6svWcshqX1uzwaWC4F4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-F0O1TmEa4I8N24nY0bya59eP6svWcshqX1uzwaWC4F4="
-        }
-      ]
-    },
-    {
-      "Route": "js/jquery-ui.4lweedi59e.js",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\jquery-ui.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "45799"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iOHMVGe/zRvWsmn8+dtoRnaufXMsKgNtENrNtm9rvKo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4lweedi59e"
-        },
-        {
-          "Name": "label",
-          "Value": "js/jquery-ui.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-iOHMVGe/zRvWsmn8+dtoRnaufXMsKgNtENrNtm9rvKo="
-        }
-      ]
-    },
-    {
-      "Route": "js/jquery-ui.js",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\jquery-ui.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "45799"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iOHMVGe/zRvWsmn8+dtoRnaufXMsKgNtENrNtm9rvKo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-iOHMVGe/zRvWsmn8+dtoRnaufXMsKgNtENrNtm9rvKo="
-        }
-      ]
-    },
-    {
       "Route": "js/main.js",
       "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\main.js",
       "Selectors": [],
@@ -10867,662 +11485,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-+R4ZLnMVy1oFRL+C7SMVJVypsU5T+N84Cz3NMj9pz0o="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "204136"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "536547"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "73kdqttayv"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "536547"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "162720"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bpk8xqwxhs"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.min.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "162720"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "449111"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8inm30yfxf"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.min.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "449111"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "204136"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mpyigms19s"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "203803"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "536461"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4gxs3k148c"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "536461"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "162825"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9b9oa1qrmt"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "162825"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "661035"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "fctod5rc9n"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "661035"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "203803"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ve6x09088i"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY="
         }
       ]
     },
@@ -13495,6 +13457,662 @@
       ]
     },
     {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "204136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "73kdqttayv"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "204136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mpyigms19s"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "203803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536461"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4gxs3k148c"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536461"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162825"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9b9oa1qrmt"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162825"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "661035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fctod5rc9n"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "661035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "203803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ve6x09088i"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY="
+        }
+      ]
+    },
+    {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
@@ -14561,8 +15179,8 @@
       ]
     },
     {
-      "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14571,7 +15189,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "288580"
+          "Value": "19385"
         },
         {
           "Name": "Content-Type",
@@ -14579,7 +15197,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=\""
+          "Value": "\"wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=\""
         },
         {
           "Name": "Last-Modified",
@@ -14593,21 +15211,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fwhahm2icz"
+          "Value": "47otxtyo56"
         },
         {
           "Name": "label",
-          "Value": "lib/jquery/dist/jquery.js"
+          "Value": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+          "Value": "sha256-wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ="
         }
       ]
     },
     {
-      "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14616,7 +15234,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "288580"
+          "Value": "19385"
         },
         {
           "Name": "Content-Type",
@@ -14624,7 +15242,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=\""
+          "Value": "\"wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=\""
         },
         {
           "Name": "Last-Modified",
@@ -14638,13 +15256,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+          "Value": "sha256-wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ="
         }
       ]
     },
     {
-      "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14653,15 +15271,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "137972"
+          "Value": "5824"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/plain"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I=\""
+          "Value": "\"YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=\""
         },
         {
           "Name": "Last-Modified",
@@ -14675,21 +15293,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5pze98is44"
+          "Value": "4v8eqarkd7"
         },
         {
           "Name": "label",
-          "Value": "lib/jquery/dist/jquery.min.map"
+          "Value": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I="
+          "Value": "sha256-YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4="
         }
       ]
     },
     {
-      "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14698,7 +15316,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "89501"
+          "Value": "5824"
         },
         {
           "Name": "Content-Type",
@@ -14706,7 +15324,44 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\""
+          "Value": "\"YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1139"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=\""
         },
         {
           "Name": "Last-Modified",
@@ -14720,21 +15375,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dd6z7egasc"
+          "Value": "356vix0kms"
         },
         {
           "Name": "label",
-          "Value": "lib/jquery/dist/jquery.min.js"
+          "Value": "lib/jquery-validation-unobtrusive/LICENSE.txt"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+          "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
         }
       ]
     },
     {
-      "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14743,15 +15398,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "89501"
+          "Value": "1139"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/javascript"
+          "Value": "text/plain"
         },
         {
           "Name": "ETag",
-          "Value": "\"/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\""
+          "Value": "\"16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=\""
         },
         {
           "Name": "Last-Modified",
@@ -14765,126 +15420,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "137972"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1117"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mlv21k5csn"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/jquery/LICENSE.txt"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1117"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
+          "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
         }
       ]
     },
@@ -15299,8 +15835,8 @@
       ]
     },
     {
-      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15309,7 +15845,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19385"
+          "Value": "288580"
         },
         {
           "Name": "Content-Type",
@@ -15317,7 +15853,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=\""
+          "Value": "\"H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=\""
         },
         {
           "Name": "Last-Modified",
@@ -15331,21 +15867,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "47otxtyo56"
+          "Value": "fwhahm2icz"
         },
         {
           "Name": "label",
-          "Value": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+          "Value": "lib/jquery/dist/jquery.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ="
+          "Value": "sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
         }
       ]
     },
     {
-      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Route": "lib/jquery/dist/jquery.js",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15354,7 +15890,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19385"
+          "Value": "288580"
         },
         {
           "Name": "Content-Type",
@@ -15362,7 +15898,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=\""
+          "Value": "\"H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=\""
         },
         {
           "Name": "Last-Modified",
@@ -15376,13 +15912,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ="
+          "Value": "sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
         }
       ]
     },
     {
-      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15391,89 +15927,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5824"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4v8eqarkd7"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5824"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1139"
+          "Value": "137972"
         },
         {
           "Name": "Content-Type",
@@ -15481,7 +15935,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=\""
+          "Value": "\"OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I=\""
         },
         {
           "Name": "Last-Modified",
@@ -15495,21 +15949,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "356vix0kms"
+          "Value": "5pze98is44"
         },
         {
           "Name": "label",
-          "Value": "lib/jquery-validation-unobtrusive/LICENSE.txt"
+          "Value": "lib/jquery/dist/jquery.min.map"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+          "Value": "sha256-OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I="
         }
       ]
     },
     {
-      "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15518,15 +15972,60 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1139"
+          "Value": "89501"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/plain"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=\""
+          "Value": "\"/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dd6z7egasc"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery/dist/jquery.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/dist/jquery.min.js",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89501"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\""
         },
         {
           "Name": "Last-Modified",
@@ -15540,7 +16039,126 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+          "Value": "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/dist/jquery.min.map",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "137972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mlv21k5csn"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery/LICENSE.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/LICENSE.txt",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 08:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
         }
       ]
     },
@@ -18661,88 +19279,6 @@
       ]
     },
     {
-      "Route": "scss/bootstrap/bootstrap.7n36judugw.scss",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\scss\\bootstrap\\bootstrap.scss",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "882"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DS1mBTDYFlKISuzHZlNkDeCbEWXNmYTV0xAJ47R6/lo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7n36judugw"
-        },
-        {
-          "Name": "label",
-          "Value": "scss/bootstrap/bootstrap.scss"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DS1mBTDYFlKISuzHZlNkDeCbEWXNmYTV0xAJ47R6/lo="
-        }
-      ]
-    },
-    {
-      "Route": "scss/bootstrap/bootstrap.scss",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\scss\\bootstrap\\bootstrap.scss",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "882"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DS1mBTDYFlKISuzHZlNkDeCbEWXNmYTV0xAJ47R6/lo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-DS1mBTDYFlKISuzHZlNkDeCbEWXNmYTV0xAJ47R6/lo="
-        }
-      ]
-    },
-    {
       "Route": "scss/bootstrap/bootstrap-grid.il26i1hk4l.scss",
       "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\scss\\bootstrap\\bootstrap-grid.scss",
       "Selectors": [],
@@ -18903,6 +19439,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-rcI3whYcKH+CPJWijNCGAF25mqqSy00qwnvv2o5pKJ4="
+        }
+      ]
+    },
+    {
+      "Route": "scss/bootstrap/bootstrap.7n36judugw.scss",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\scss\\bootstrap\\bootstrap.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DS1mBTDYFlKISuzHZlNkDeCbEWXNmYTV0xAJ47R6/lo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7n36judugw"
+        },
+        {
+          "Name": "label",
+          "Value": "scss/bootstrap/bootstrap.scss"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DS1mBTDYFlKISuzHZlNkDeCbEWXNmYTV0xAJ47R6/lo="
+        }
+      ]
+    },
+    {
+      "Route": "scss/bootstrap/bootstrap.scss",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\scss\\bootstrap\\bootstrap.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DS1mBTDYFlKISuzHZlNkDeCbEWXNmYTV0xAJ47R6/lo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DS1mBTDYFlKISuzHZlNkDeCbEWXNmYTV0xAJ47R6/lo="
         }
       ]
     },
@@ -19891,88 +20509,6 @@
       ]
     },
     {
-      "Route": "scss/bootstrap/mixins/_grid.dz7nga61ku.scss",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\scss\\bootstrap\\mixins\\_grid.scss",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1606"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KaAphGFcjAA27Q6GlWs0t6a11b71QUEMraLxEH43zZc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dz7nga61ku"
-        },
-        {
-          "Name": "label",
-          "Value": "scss/bootstrap/mixins/_grid.scss"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-KaAphGFcjAA27Q6GlWs0t6a11b71QUEMraLxEH43zZc="
-        }
-      ]
-    },
-    {
-      "Route": "scss/bootstrap/mixins/_grid.scss",
-      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\scss\\bootstrap\\mixins\\_grid.scss",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1606"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KaAphGFcjAA27Q6GlWs0t6a11b71QUEMraLxEH43zZc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-KaAphGFcjAA27Q6GlWs0t6a11b71QUEMraLxEH43zZc="
-        }
-      ]
-    },
-    {
       "Route": "scss/bootstrap/mixins/_grid-framework.bhgcpnj4m2.scss",
       "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\scss\\bootstrap\\mixins\\_grid-framework.scss",
       "Selectors": [],
@@ -20051,6 +20587,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-b4MTk6Pi9t1tweDqkohfNW5izy+kk4iUGkVg1HZEUQI="
+        }
+      ]
+    },
+    {
+      "Route": "scss/bootstrap/mixins/_grid.dz7nga61ku.scss",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\scss\\bootstrap\\mixins\\_grid.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1606"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KaAphGFcjAA27Q6GlWs0t6a11b71QUEMraLxEH43zZc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dz7nga61ku"
+        },
+        {
+          "Name": "label",
+          "Value": "scss/bootstrap/mixins/_grid.scss"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KaAphGFcjAA27Q6GlWs0t6a11b71QUEMraLxEH43zZc="
+        }
+      ]
+    },
+    {
+      "Route": "scss/bootstrap/mixins/_grid.scss",
+      "AssetFile": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\scss\\bootstrap\\mixins\\_grid.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1606"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KaAphGFcjAA27Q6GlWs0t6a11b71QUEMraLxEH43zZc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2019 11:24:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KaAphGFcjAA27Q6GlWs0t6a11b71QUEMraLxEH43zZc="
         }
       ]
     },

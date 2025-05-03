@@ -15,6 +15,7 @@ namespace Academics.Admin.Models
 		public string Hours { get; set; }
 
 		public string? Description { get; set; }
+		public string Category { get; set; }
 
 		public string CourseTitle { get; set; }
 
@@ -23,5 +24,7 @@ namespace Academics.Admin.Models
 
 		[Range(0, 5)]
 		public int Stars { get; set; }
+
+		public byte[]? image { get; set; }
 	}
 }

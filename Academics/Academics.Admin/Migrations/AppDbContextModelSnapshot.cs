@@ -95,6 +95,10 @@ namespace Academics.Admin.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Category")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("CourseTitle")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -115,11 +119,14 @@ namespace Academics.Admin.Migrations
                     b.Property<int>("TeacherId")
                         .HasColumnType("int");
 
+                    b.Property<byte[]>("image")
+                        .HasColumnType("varbinary(max)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("TeacherId");
 
-                    b.ToTable("Courses");
+                    b.ToTable("Courses", (string)null);
                 });
 
             modelBuilder.Entity("Academics.Admin.Models.Position", b =>
@@ -145,7 +152,7 @@ namespace Academics.Admin.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Positions");
+                    b.ToTable("Positions", (string)null);
                 });
 
             modelBuilder.Entity("Academics.Admin.Models.Teacher", b =>
@@ -179,7 +186,7 @@ namespace Academics.Admin.Migrations
 
                     b.HasIndex("PositionId");
 
-                    b.ToTable("Teachers");
+                    b.ToTable("Teachers", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

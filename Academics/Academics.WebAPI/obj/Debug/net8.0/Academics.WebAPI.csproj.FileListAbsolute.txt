@@ -133,10 +133,12 @@ C:\Users\acer\Desktop\Уник\6 семестр\Разработка web ком�
 C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics.WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Academics.WebAPI.props
 C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics.WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Academics.WebAPI.props
 C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics.WebAPI\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics.WebAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics.WebAPI\obj\Debug\net8.0\Academic.B53706F9.Up2Date
 C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics.WebAPI\obj\Debug\net8.0\Academics.WebAPI.dll
 C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics.WebAPI\obj\Debug\net8.0\refint\Academics.WebAPI.dll
 C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics.WebAPI\obj\Debug\net8.0\Academics.WebAPI.pdb
 C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics.WebAPI\obj\Debug\net8.0\Academics.WebAPI.genruntimeconfig.cache
 C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics.WebAPI\obj\Debug\net8.0\ref\Academics.WebAPI.dll
+C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics.WebAPI\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+C:\Users\acer\Desktop\Уник\6 семестр\Разработка web компонентов\Academics\Academics.WebAPI\bin\Debug\net8.0\Newtonsoft.Json.dll

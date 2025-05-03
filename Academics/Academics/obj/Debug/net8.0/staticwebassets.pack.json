@@ -169,6 +169,10 @@
       "PackagePath": "staticwebassets\\images\\blog_large_1.jpg"
     },
     {
+      "Id": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\course1.jpg",
+      "PackagePath": "staticwebassets\\images\\course1.jpg"
+    },
+    {
       "Id": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\course_1.jpg",
       "PackagePath": "staticwebassets\\images\\course_1.jpg"
     },
@@ -197,6 +201,14 @@
       "PackagePath": "staticwebassets\\images\\hero_1.jpg"
     },
     {
+      "Id": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\hero_2.jpg",
+      "PackagePath": "staticwebassets\\images\\hero_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\hero_3.jpg",
+      "PackagePath": "staticwebassets\\images\\hero_3.jpg"
+    },
+    {
       "Id": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\logo.jpg",
       "PackagePath": "staticwebassets\\images\\logo.jpg"
     },
@@ -219,6 +231,18 @@
     {
       "Id": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\person_4.jpg",
       "PackagePath": "staticwebassets\\images\\person_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\person_5.jpg",
+      "PackagePath": "staticwebassets\\images\\person_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\person_6.jpg",
+      "PackagePath": "staticwebassets\\images\\person_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\images\\person_7.jpg",
+      "PackagePath": "staticwebassets\\images\\person_7.jpg"
     },
     {
       "Id": "C:\\Users\\acer\\Desktop\\Уник\\6 семестр\\Разработка web компонентов\\Academics\\Academics\\wwwroot\\js\\aos.js",
